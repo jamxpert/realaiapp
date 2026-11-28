@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "website": "https://www.perplexity.ai",
+    "affiliateUrl": "",
+    "shortDescription": "AI search engine that answers with sources.",
+    "bestFor": "Quick answers from the web with sources you can check",
+    "about": [
+      "Perplexity is an AI search engine. You ask a question, it searches the web, and it writes an answer with numbered links to its sources, so you can check where each fact came from.",
+      "It is good for news, product research, comparing options and learning about a topic fast."
+    ],
+    "useCases": [
+      "Research a topic quickly",
+      "Compare products before buying",
+      "Find recent news and facts",
+      "Start an assignment with sources"
+    ],
+    "features": [
+      "Answers with source links",
+      "Follow-up questions in the same thread",
+      "Focus on academic papers, videos or discussions",
+      "Deep research reports"
+    ],
+    "howToUse": [
+      { "title": "Open Perplexity", "text": "Go to perplexity.ai or install the app. You can search without an account." },
+      { "title": "Ask a full question", "text": "Write it like you would ask a person: \"What are the cheapest ways to send money from Dubai to Pakistan?\"" },
+      { "title": "Check the sources", "text": "Click the numbered links to see where each fact came from." },
+      { "title": "Ask follow-ups", "text": "Keep asking in the same thread to go deeper." }
+    ],
+    "tips": [
+      "Add a time, like \"in 2026\", for recent information.",
+      "Open at least two sources for anything important."
+    ],
+    "examplePrompt": "Compare the best laptops under 150,000 rupees in Pakistan for a university student in 2026. Show a table of price, battery life and weight, with sources.",
+    "limitations": [
+      "It can still misread a source. Check the links.",
+      "The free plan gives only a few Pro searches per day."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A few Pro searches per day.",
+    "cheapestPaidPlan": "Pro — $20/month",
+    "otherPlans": ["Education Pro — $10/month"],
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "website": "https://notebooklm.google.com",
+    "affiliateUrl": "",
+    "shortDescription": "Google's free AI notebook that answers questions from your own files.",
+    "bestFor": "Studying from your own notes, books and PDFs, with podcast-style summaries",
+    "about": [
+      "NotebookLM is a free tool from Google. You upload your own sources (PDFs, Google Docs, websites, YouTube videos) and it answers questions using only those sources, with links to the exact part it used.",
+      "It can also make an \"Audio Overview\": a podcast-style conversation about your sources, plus study guides, quizzes, flashcards and mind maps."
+    ],
+    "useCases": [
+      "Study for exams from your notes",
+      "Make quizzes and flashcards",
+      "Listen to a podcast summary of a long report",
+      "Research from a set of documents"
+    ],
+    "features": [
+      "Answers only from your sources, with citations",
+      "Audio and Video Overviews",
+      "Study guides, quizzes and flashcards",
+      "Mind maps"
+    ],
+    "howToUse": [
+      { "title": "Sign in", "text": "Go to notebooklm.google.com with your Google account." },
+      { "title": "Create a notebook", "text": "Make one notebook per subject or project." },
+      { "title": "Add sources", "text": "Upload PDFs, paste text, or add links to websites and YouTube videos." },
+      { "title": "Ask questions", "text": "Ask in the chat. Click the numbers to see the exact source." },
+      { "title": "Make study material", "text": "Generate an Audio Overview, quiz, flashcards or study guide." }
+    ],
+    "tips": [
+      "Add only good sources: answers are only as good as what you upload.",
+      "Listen to the Audio Overview while travelling to revise."
+    ],
+    "examplePrompt": "Using only my uploaded lecture notes, make 15 multiple-choice questions for my exam with the answers and a one-line explanation for each.",
+    "limitations": [
+      "The free plan has daily limits on chats and audio overviews.",
+      "It doesn't search the web unless you add sources."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "100 notebooks, 50 sources each, with daily limits.",
+    "cheapestPaidPlan": "Higher limits with Google AI Plus — $4.99/month",
+    "otherPlans": ["Google AI Pro — $19.99/month"],
+    "pricingNote": "US prices.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "consensus",
+    "name": "Consensus",
+    "website": "https://consensus.app",
+    "affiliateUrl": "",
+    "shortDescription": "AI search engine for scientific research papers.",
+    "bestFor": "Finding what scientific studies say about a question",
+    "about": [
+      "Consensus searches millions of scientific research papers and summarises what they found. For yes/no questions, its \"Consensus Meter\" shows how many studies say yes, no or maybe.",
+      "It is useful for students, writers and anyone who wants evidence, not opinions."
+    ],
+    "useCases": [
+      "Find studies for an assignment or thesis",
+      "Check health and nutrition claims",
+      "Literature reviews",
+      "Back up an article with evidence"
+    ],
+    "features": [
+      "Searches scientific papers only",
+      "Summaries with citations",
+      "Consensus Meter for yes/no questions",
+      "Filters for study type and quality"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at consensus.app." },
+      { "title": "Ask a research question", "text": "For example \"Does sleep affect exam performance?\"" },
+      { "title": "Read the summary", "text": "Check the summary and the Consensus Meter." },
+      { "title": "Open the papers", "text": "Click the papers to read the details and cite them properly." }
+    ],
+    "tips": [
+      "Ask clear yes/no questions to get the Consensus Meter.",
+      "Use filters to see only larger or higher-quality studies."
+    ],
+    "limitations": [
+      "Only research papers, so it is not for news or general questions.",
+      "Always read the paper before citing it."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free searches with a limited number of Pro features.",
+    "cheapestPaidPlan": "Pro — about $12/month yearly ($20 monthly)",
+    "pricingNote": "US prices. Sources disagreed on the monthly price, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "elicit",
+    "name": "Elicit",
+    "website": "https://elicit.com",
+    "affiliateUrl": "",
+    "shortDescription": "AI research assistant that finds papers and pulls data from them.",
+    "bestFor": "Literature reviews: finding papers and putting their findings in a table",
+    "about": [
+      "Elicit helps with academic research. It finds relevant papers for your question, summarises them, and can pull details, such as sample size or results, into a table so you can compare many studies.",
+      "It can also write research reports with citations."
+    ],
+    "useCases": [
+      "Literature reviews for a thesis",
+      "Compare findings across many studies",
+      "Summarise papers",
+      "Find papers you might have missed"
+    ],
+    "features": [
+      "Paper search with summaries",
+      "Data extraction into tables",
+      "Upload your own PDFs",
+      "Research reports with citations"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at elicit.com." },
+      { "title": "Ask your research question", "text": "Write a specific question for best results." },
+      { "title": "Choose papers", "text": "Look through the found papers and keep the relevant ones." },
+      { "title": "Add columns", "text": "Add columns like \"sample size\" or \"main finding\" to extract details from each paper." },
+      { "title": "Export", "text": "Export the table to use in your review." }
+    ],
+    "tips": [
+      "Check extracted data against the paper: it can miss details.",
+      "Upload PDFs you already have to add them to the table."
+    ],
+    "limitations": [
+      "Mainly for academic research.",
+      "Free use is limited."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free searches with limits on extraction and reports.",
+    "cheapestPaidPlan": "Plus — about $12/month",
+    "pricingNote": "US prices. Sources showed $10 to $12, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

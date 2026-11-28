@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "turboscribe",
+    "name": "TurboScribe",
+    "website": "https://turboscribe.ai",
+    "affiliateUrl": "",
+    "shortDescription": "Fast, accurate transcription of audio and video files.",
+    "bestFor": "Turning recordings into text quickly and cheaply, with a generous free plan",
+    "about": [
+      "TurboScribe turns audio and video files into text. You upload a recording, such as a lecture, interview or voice note, and get a transcript you can download in many formats, including subtitles.",
+      "It supports many languages, and its paid plan has no fixed limit on how much you transcribe."
+    ],
+    "useCases": [
+      "Transcribe lectures and interviews",
+      "Make subtitles for videos",
+      "Turn voice notes into text",
+      "Translate transcripts"
+    ],
+    "features": [
+      "Many languages",
+      "Speaker labels",
+      "Export as Word, PDF, TXT or SRT subtitles",
+      "Translate transcripts"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at turboscribe.ai." },
+      { "title": "Upload a file", "text": "Upload an audio or video file, or paste a link." },
+      { "title": "Choose the language", "text": "Pick the spoken language and turn on speaker labels if there is more than one speaker." },
+      { "title": "Download", "text": "When it is done, read the transcript and export it." }
+    ],
+    "tips": [
+      "Clear audio with less background noise gives much better results.",
+      "Use SRT export to add subtitles in CapCut or YouTube."
+    ],
+    "limitations": [
+      "Free files are limited to 30 minutes each and 3 per day.",
+      "Mixed Urdu and English speech can have more mistakes."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "3 files per day, up to 30 minutes each.",
+    "cheapestPaidPlan": "Unlimited — $20/month or $10/month yearly",
+    "pricingNote": "US prices.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "otter-ai",
+    "name": "Otter.ai",
+    "website": "https://otter.ai",
+    "affiliateUrl": "",
+    "shortDescription": "AI meeting assistant that records, transcribes and summarises meetings.",
+    "bestFor": "Live notes and summaries of Zoom, Google Meet and Teams meetings",
+    "about": [
+      "Otter.ai joins your online meetings, writes a live transcript, and gives you a summary and action items at the end.",
+      "You can also record in-person conversations on your phone and search all your past meetings."
+    ],
+    "useCases": [
+      "Meeting notes and summaries",
+      "Record lectures",
+      "Interview notes",
+      "Find what was said in an old meeting"
+    ],
+    "features": [
+      "Joins Zoom, Google Meet and Microsoft Teams",
+      "Live transcript",
+      "Automatic summaries and action items",
+      "Chat with your meeting notes"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at otter.ai and connect your calendar." },
+      { "title": "Let it join meetings", "text": "Otter's assistant can join scheduled meetings automatically, or you can add it to one." },
+      { "title": "Or record on your phone", "text": "Use the app to record an in-person meeting or lecture." },
+      { "title": "Review the summary", "text": "After the meeting, read the summary and share it." }
+    ],
+    "tips": [
+      "Always tell people the meeting is being recorded.",
+      "Add special words and names to its vocabulary for better accuracy."
+    ],
+    "limitations": [
+      "Works best in English. Other languages are limited.",
+      "Free conversations are limited to 30 minutes."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "300 minutes per month, up to 30 minutes per conversation.",
+    "cheapestPaidPlan": "Pro — $16.99/month or $8.33/month yearly",
+    "pricingNote": "US prices, per user.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "website": "https://fireflies.ai",
+    "affiliateUrl": "",
+    "shortDescription": "Meeting notetaker that transcribes, summarises and searches calls.",
+    "bestFor": "Teams that want searchable notes from every call, in many languages",
+    "about": [
+      "Fireflies.ai joins your video calls, records and transcribes them, and makes summaries with action items. It supports many languages and connects to tools like Slack, CRMs and Notion.",
+      "It is popular with sales and support teams who want to search what customers said."
+    ],
+    "useCases": [
+      "Sales and client call notes",
+      "Team meeting summaries",
+      "Searching past calls",
+      "Sending notes to Slack or a CRM"
+    ],
+    "features": [
+      "Works with Zoom, Meet and Teams",
+      "Transcripts in many languages",
+      "AI summaries and action items",
+      "Integrations with work apps"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at fireflies.ai and connect your calendar." },
+      { "title": "Choose which meetings to join", "text": "Set it to join all meetings or only the ones you pick." },
+      { "title": "Read the notes", "text": "After each call, read the summary and transcript." },
+      { "title": "Connect your apps", "text": "Send notes automatically to Slack, Notion or your CRM." }
+    ],
+    "tips": [
+      "Ask permission before recording anyone.",
+      "Use topic trackers to find calls where a word, such as \"price\", came up."
+    ],
+    "limitations": [
+      "AI features on the paid plan use credits.",
+      "The free plan has limited storage and summaries."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free transcription with limited storage and AI summaries.",
+    "cheapestPaidPlan": "Pro — $18/month or $10/month yearly",
+    "pricingNote": "US prices, per seat.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

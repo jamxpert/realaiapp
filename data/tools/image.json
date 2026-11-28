@@ -1,0 +1,188 @@
+[
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "website": "https://www.midjourney.com",
+    "affiliateUrl": "",
+    "shortDescription": "AI image generator.",
+    "bestFor": "The most artistic, beautiful AI images, for art, moodboards and concepts",
+    "about": [
+      "Midjourney makes images from text descriptions. It is known for the most artistic, polished look of any AI image tool, which is why designers and artists use it for concepts and moodboards.",
+      "You use it on its website (or on Discord). It can also animate images into short videos."
+    ],
+    "useCases": [
+      "Concept art and illustrations",
+      "Moodboards for a brand or project",
+      "Blog and social media images",
+      "Product and fashion ideas"
+    ],
+    "features": [
+      "High-quality, artistic images",
+      "Style and character references to keep a consistent look",
+      "Editor to change parts of an image",
+      "Image to short video"
+    ],
+    "howToUse": [
+      { "title": "Subscribe", "text": "Sign in at midjourney.com and choose a plan. There is no free plan." },
+      { "title": "Write a prompt", "text": "Describe the subject, style, lighting and mood, for example \"a cosy tea stall in old Lahore at dusk, warm light, watercolour\"." },
+      { "title": "Pick and refine", "text": "You get several options. Make variations of the one you like, or upscale it." },
+      { "title": "Use references", "text": "Add a style or character reference image to keep a consistent look across images." },
+      { "title": "Download", "text": "Download the full-size image from your gallery." }
+    ],
+    "tips": [
+      "Describe the style with art words: \"watercolour\", \"35mm photo\", \"flat vector\".",
+      "Use the aspect ratio setting for the shape you need, such as 16:9 for YouTube thumbnails.",
+      "Text inside images is better in Ideogram."
+    ],
+    "examplePrompt": "a cosy roadside chai stall in old Lahore at dusk, warm string lights, steam rising from cups, watercolour illustration, soft colours",
+    "limitations": [
+      "No free plan and no free trial.",
+      "On the cheaper plans, your images are public in the gallery."
+    ],
+    "freePlan": false,
+    "freePlanDetails": "No free plan and no free trial.",
+    "cheapestPaidPlan": "Basic — $10/month",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "leonardo-ai",
+    "name": "Leonardo.Ai",
+    "website": "https://leonardo.ai",
+    "affiliateUrl": "",
+    "shortDescription": "AI image and video generator with a daily free allowance.",
+    "bestFor": "Making lots of AI images for free every day, with many styles",
+    "about": [
+      "Leonardo.Ai is an image and video generator with many models and style presets. Its free plan gives you tokens every day, which makes it a good free choice for regular use.",
+      "It has tools for game art, product photos and consistent characters, and a canvas to edit and extend images."
+    ],
+    "useCases": [
+      "Social media and blog images",
+      "Game and fantasy art",
+      "Product photo ideas",
+      "Short AI videos from images"
+    ],
+    "features": [
+      "Daily free tokens",
+      "Many models and style presets",
+      "Canvas editor to fix or extend images",
+      "Image to video"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at leonardo.ai." },
+      { "title": "Open Image Generation", "text": "Choose a model or preset that matches the style you want." },
+      { "title": "Write your prompt", "text": "Describe the subject, style and setting, and choose the image size." },
+      { "title": "Generate and edit", "text": "Pick the best result, then use the canvas to fix details or upscale." }
+    ],
+    "tips": [
+      "Use the prompt enhance option if you are not sure how to describe a style.",
+      "Lower the number of images per generation to save tokens."
+    ],
+    "examplePrompt": "flat illustration of a young woman working on a laptop in a small Karachi apartment, plants, morning light, clean pastel colours",
+    "limitations": [
+      "Free images are public, and the best models cost more tokens.",
+      "Plan names and token prices change often."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "150 tokens per day.",
+    "cheapestPaidPlan": "Essential — $12/month ($10/month yearly)",
+    "pricingNote": "US prices. Some sources still call the first paid plan \"Apprentice\".",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "website": "https://ideogram.ai",
+    "affiliateUrl": "",
+    "shortDescription": "AI image generator that is very good at text inside images.",
+    "bestFor": "Posters, logos and social posts where the image needs readable text",
+    "about": [
+      "Ideogram makes images from text, and it is the best known tool for putting clear, correctly spelled words inside an image. That makes it useful for posters, thumbnails, logos and greeting cards.",
+      "It also has a canvas for editing and extending images."
+    ],
+    "useCases": [
+      "Posters and event flyers",
+      "YouTube thumbnails with a title",
+      "Logo and t-shirt ideas",
+      "Social media posts with a quote"
+    ],
+    "features": [
+      "Accurate text inside images",
+      "Style options such as design, realistic and 3D",
+      "Magic Prompt to improve your prompt",
+      "Canvas to edit and extend images"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at ideogram.ai with Google or an email." },
+      { "title": "Put the text in quotes", "text": "Write the words you want inside the image in quotes, for example: a poster that says \"Grand Opening\"." },
+      { "title": "Choose a style and size", "text": "Pick a style and an aspect ratio, such as 9:16 for stories." },
+      { "title": "Generate and pick", "text": "Choose the best result and download it, or remix it." }
+    ],
+    "tips": [
+      "Keep the text short. A few words work much better than a full sentence.",
+      "Turn Magic Prompt off if it changes your idea too much."
+    ],
+    "examplePrompt": "a modern poster with the text \"Eid Sale 50% Off\" in bold gold letters, dark green background, crescent moon, clean design",
+    "limitations": [
+      "Images made on the free plan are public.",
+      "Urdu text inside images is not reliable yet."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Limited slow generations each week. Images are public.",
+    "cheapestPaidPlan": "Plus — $20/month ($15/month yearly)",
+    "pricingNote": "US prices. The older $8 Basic plan is no longer sold.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "website": "https://firefly.adobe.com",
+    "affiliateUrl": "",
+    "shortDescription": "Adobe's AI for images, video and design, built to be safe for commercial use.",
+    "bestFor": "Commercial work where you need images that are safe to use for clients",
+    "about": [
+      "Adobe Firefly is Adobe's family of AI tools for images, video and audio. Adobe trains its own models on content it has the rights to use, which is why many businesses choose it for client work.",
+      "It is also built into Photoshop (Generative Fill) and Adobe Express."
+    ],
+    "useCases": [
+      "Images for ads and client projects",
+      "Removing or adding objects in photos",
+      "Extending a photo to a new size",
+      "Short video clips and effects"
+    ],
+    "features": [
+      "Text to image and image to video",
+      "Generative Fill and Expand in Photoshop",
+      "Style and structure references",
+      "Access to some partner models as well as Adobe's own"
+    ],
+    "howToUse": [
+      { "title": "Sign in", "text": "Go to firefly.adobe.com and sign in with a free Adobe account." },
+      { "title": "Choose a tool", "text": "Pick Text to Image, Generative Fill or video." },
+      { "title": "Describe what you want", "text": "Write your prompt and choose content type (photo or art) and size." },
+      { "title": "Refine", "text": "Use style references and settings, then download or open in Photoshop or Express." }
+    ],
+    "tips": [
+      "Use Generative Fill to remove people or objects from a photo by brushing over them.",
+      "Check which model you used: Adobe's own models are the ones meant for commercial safety."
+    ],
+    "examplePrompt": "product photo of a ceramic coffee mug on a wooden table by a window, soft morning light, shallow depth of field",
+    "limitations": [
+      "Premium features such as video use credits, and the free amount is small.",
+      "Partner models may not have the same commercial-use protection as Adobe's own."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A small number of free credits with an Adobe account.",
+    "cheapestPaidPlan": "Firefly Standard — $9.99/month (2,000 credits)",
+    "pricingNote": "US prices. Prices differ by country.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

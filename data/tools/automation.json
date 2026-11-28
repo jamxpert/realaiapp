@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "website": "https://zapier.com",
+    "affiliateUrl": "",
+    "shortDescription": "Connects thousands of apps so work happens automatically, with AI steps.",
+    "bestFor": "Connecting apps and automating work without code, the easy way",
+    "about": [
+      "Zapier connects your apps so that something in one app triggers an action in another. For example, a new Google Form answer can be added to a Google Sheet and sent to you on Slack, with no code.",
+      "It works with thousands of apps and can add AI steps, such as summarising an email or sorting a message."
+    ],
+    "useCases": [
+      "Save form answers to a spreadsheet",
+      "Get notified of new orders or leads",
+      "Post to social media automatically",
+      "Summarise emails with AI and send them to Slack"
+    ],
+    "features": [
+      "Thousands of app connections",
+      "Build automations by describing them in plain words",
+      "AI steps inside workflows",
+      "Tables, forms and chatbots"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at zapier.com." },
+      { "title": "Describe your automation", "text": "Type what you want, such as \"when I get a new Gmail with an invoice, save the attachment to Google Drive\"." },
+      { "title": "Connect your apps", "text": "Sign in to each app so Zapier can use it." },
+      { "title": "Test it", "text": "Run a test with real data and check the result." },
+      { "title": "Turn it on", "text": "Publish the Zap. It now runs by itself." }
+    ],
+    "tips": [
+      "Start with one simple automation that saves you time every day.",
+      "Each action counts as a task, so long workflows use your monthly limit faster."
+    ],
+    "limitations": [
+      "The free plan has a small monthly task limit.",
+      "It gets expensive with lots of tasks."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "100 tasks per month.",
+    "cheapestPaidPlan": "Professional — from $19.99/month billed yearly",
+    "pricingNote": "US prices. The price goes up with more tasks.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "make",
+    "name": "Make",
+    "website": "https://www.make.com",
+    "affiliateUrl": "",
+    "shortDescription": "Visual automation builder for connecting apps and AI, cheaper than Zapier.",
+    "bestFor": "Bigger, more complex automations at a lower price than Zapier",
+    "about": [
+      "Make (formerly Integromat) lets you build automations on a visual canvas: you drag app modules and connect them in a flow, with branches, filters and loops.",
+      "It is cheaper than Zapier for large amounts of work, but takes a little longer to learn."
+    ],
+    "useCases": [
+      "Multi-step business workflows",
+      "Process orders from an online shop",
+      "AI workflows, such as writing replies to messages",
+      "Move data between apps on a schedule"
+    ],
+    "features": [
+      "Visual drag-and-drop builder",
+      "Branches, filters and loops",
+      "AI and many app connections",
+      "Templates to start from"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at make.com." },
+      { "title": "Start from a template", "text": "Search for a template close to what you need." },
+      { "title": "Connect modules", "text": "Add apps as modules and connect them in order." },
+      { "title": "Run once to test", "text": "Click Run once and check what each module did." },
+      { "title": "Schedule it", "text": "Turn on the scenario and set how often it runs." }
+    ],
+    "tips": [
+      "Use filters so the scenario only continues when it should.",
+      "Check the credit use of each run before scheduling it often."
+    ],
+    "limitations": [
+      "Harder to learn than Zapier.",
+      "Credits expire at the end of each period."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A small number of free credits each month.",
+    "cheapestPaidPlan": "Core — from about $9/month billed yearly",
+    "pricingNote": "US prices. Sources showed $9 to $12 per month billed yearly, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "website": "https://n8n.io",
+    "affiliateUrl": "",
+    "shortDescription": "Workflow automation and AI agents you can host yourself for free.",
+    "bestFor": "Technical users who want powerful automations and AI agents, free if self-hosted",
+    "about": [
+      "n8n is a workflow automation tool, similar to Zapier and Make, that is very popular for building AI agents. You can use the paid cloud version, or host it yourself for free.",
+      "It allows code inside workflows, so developers can do almost anything with it."
+    ],
+    "useCases": [
+      "AI agents that answer messages or emails",
+      "WhatsApp and Telegram bots",
+      "Data pipelines between apps",
+      "Internal business automations"
+    ],
+    "features": [
+      "Visual workflow builder",
+      "AI agent and LLM nodes",
+      "Code nodes for JavaScript and Python",
+      "Free self-hosted Community Edition"
+    ],
+    "howToUse": [
+      { "title": "Choose cloud or self-host", "text": "Start a cloud trial at n8n.io, or install it on your own server or computer for free." },
+      { "title": "Create a workflow", "text": "Add a trigger, such as a webhook, a schedule or a new message." },
+      { "title": "Add nodes", "text": "Add app and AI nodes and connect them." },
+      { "title": "Test each step", "text": "Run the workflow and check the output of each node." },
+      { "title": "Activate", "text": "Turn the workflow on so it runs by itself." }
+    ],
+    "tips": [
+      "Import a community template to learn faster.",
+      "Keep API keys in n8n credentials, never inside the workflow text."
+    ],
+    "limitations": [
+      "Self-hosting needs technical knowledge and a server.",
+      "The cloud plan counts every workflow run, so frequent triggers add up."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free if you host it yourself. The cloud version has a free trial.",
+    "cheapestPaidPlan": "Cloud Starter — about €24/month (€20/month yearly)",
+    "pricingNote": "n8n prices are in euros.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

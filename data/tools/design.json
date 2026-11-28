@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "website": "https://www.canva.com",
+    "affiliateUrl": "",
+    "shortDescription": "Online design tool with AI features.",
+    "bestFor": "Social posts, thumbnails, CVs and flyers, even if you have never designed before",
+    "about": [
+      "Canva is an easy online design tool with thousands of templates. You pick a template, change the text and photos, and download. Its AI features (Magic Studio) can write text, make images, remove backgrounds and resize designs.",
+      "It works in the browser and on phones, and the free plan is enough for most personal use."
+    ],
+    "useCases": [
+      "Instagram and Facebook posts",
+      "YouTube thumbnails",
+      "CVs and certificates",
+      "Flyers, menus and business cards",
+      "Simple presentations and short videos"
+    ],
+    "features": [
+      "Thousands of free templates",
+      "Magic Design: makes designs from a prompt",
+      "Background remover (Pro)",
+      "Magic Resize to change a design for other platforms (Pro)",
+      "AI image generation and writing"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at canva.com or install the app." },
+      { "title": "Search for a template", "text": "Type what you are making, such as \"YouTube thumbnail\" or \"CV\", and choose a template." },
+      { "title": "Change the content", "text": "Click text to edit it, drag in your own photos, and change colours." },
+      { "title": "Use AI if needed", "text": "Open Magic Studio to generate an image, write text or remove a background." },
+      { "title": "Download or share", "text": "Click Share > Download and choose PNG for images or PDF for print." }
+    ],
+    "tips": [
+      "Set up your brand colours and fonts once so every design matches.",
+      "Download PDF Print for anything you will print at a shop."
+    ],
+    "limitations": [
+      "Many AI features and premium templates need Canva Pro.",
+      "Popular templates are used by many people, so change them to stand out."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "20 AI uses per month.",
+    "cheapestPaidPlan": "Pro — $18/month or $144/year",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "microsoft-designer",
+    "name": "Microsoft Designer",
+    "website": "https://designer.microsoft.com",
+    "affiliateUrl": "",
+    "shortDescription": "Free AI design app from Microsoft for posts, cards and images.",
+    "bestFor": "Quick free designs and AI images with just a Microsoft account",
+    "about": [
+      "Microsoft Designer makes designs and images from a description. Type what you need, such as a birthday card or an Instagram post, and it creates several ready designs you can edit.",
+      "It also has tools to remove backgrounds, restyle photos and make stickers and emojis."
+    ],
+    "useCases": [
+      "Invitations and greeting cards",
+      "Social media posts",
+      "AI images from text",
+      "Removing a photo background"
+    ],
+    "features": [
+      "Designs from a prompt",
+      "Image generation",
+      "Background removal and photo editing",
+      "Templates for cards, posts and more"
+    ],
+    "howToUse": [
+      { "title": "Sign in", "text": "Go to designer.microsoft.com and sign in with a free Microsoft account." },
+      { "title": "Describe your design", "text": "Type what you want, for example \"wedding invitation, gold and white, Mehndi on 12 December\"." },
+      { "title": "Pick one", "text": "Choose the design you like from the results." },
+      { "title": "Edit and download", "text": "Change text and pictures, then download." }
+    ],
+    "tips": [
+      "Put the exact words you want in your prompt.",
+      "It is a quick option; for full control use Canva."
+    ],
+    "limitations": [
+      "The free plan has a limited number of AI uses.",
+      "Fewer templates and controls than Canva."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free with a Microsoft account, with limited AI uses.",
+    "cheapestPaidPlan": "More AI uses with Microsoft 365 Personal — $9.99/month",
+    "pricingNote": "US prices.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "remove-bg",
+    "name": "remove.bg",
+    "website": "https://www.remove.bg",
+    "affiliateUrl": "",
+    "shortDescription": "Removes the background from any photo in seconds.",
+    "bestFor": "Removing photo backgrounds in one click, for products and profile pictures",
+    "about": [
+      "remove.bg does one job very well: upload a photo and it removes the background automatically, usually in a few seconds, even around hair.",
+      "It is popular with online shops for product photos, and for passport-style or profile pictures."
+    ],
+    "useCases": [
+      "Product photos with a white background",
+      "Profile and CV photos",
+      "Cut-outs for thumbnails and posters",
+      "Batch editing many photos (paid)"
+    ],
+    "features": [
+      "Automatic background removal",
+      "Add a colour or new background",
+      "Desktop app and API for batch work",
+      "Works with people, products, animals and cars"
+    ],
+    "howToUse": [
+      { "title": "Open the website", "text": "Go to remove.bg. No account is needed to try it." },
+      { "title": "Upload a photo", "text": "Click Upload Image or paste a picture." },
+      { "title": "Wait a few seconds", "text": "The background is removed automatically." },
+      { "title": "Edit and download", "text": "Add a background colour if you want, then download." }
+    ],
+    "tips": [
+      "Photos with a clear subject and good light give the cleanest cut-out.",
+      "Canva Pro and phone galleries also have background removal if you already have them."
+    ],
+    "limitations": [
+      "Free downloads are low resolution.",
+      "Full-quality downloads cost credits."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free downloads in low (preview) resolution.",
+    "cheapestPaidPlan": "Subscription from about $9/month (40 credits)",
+    "pricingNote": "US prices. One credit is one full-resolution image. Unused credits roll over up to a limit.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

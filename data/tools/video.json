@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "capcut",
+    "name": "CapCut",
+    "website": "https://www.capcut.com",
+    "affiliateUrl": "",
+    "shortDescription": "Video editor with AI features.",
+    "bestFor": "Editing Reels, TikToks and YouTube Shorts on your phone or computer",
+    "about": [
+      "CapCut is a free video editor for phones, computers and the web. It is the most popular choice for short videos because it is easy and full of trending effects, templates and music.",
+      "Its AI features add auto captions, remove backgrounds, clean up audio and turn long videos into short clips."
+    ],
+    "useCases": [
+      "Edit Reels, TikToks and Shorts",
+      "Add automatic captions",
+      "Make videos from templates",
+      "Remove a video background without a green screen",
+      "Add text-to-speech voice-overs"
+    ],
+    "features": [
+      "Auto captions in many languages",
+      "Templates and trending effects",
+      "Background removal",
+      "Text to speech and voice effects",
+      "Phone, desktop and web versions"
+    ],
+    "howToUse": [
+      { "title": "Install CapCut", "text": "Download the app on your phone or computer, or use the web version." },
+      { "title": "Start a new project", "text": "Tap New project and add your clips and photos." },
+      { "title": "Cut and arrange", "text": "Trim the start and end of each clip and drag them into order." },
+      { "title": "Add captions", "text": "Open Text > Auto captions, pick the language, and fix any wrong words." },
+      { "title": "Add music and export", "text": "Add sound, then export in 1080p and the right size, such as 9:16 for Reels." }
+    ],
+    "tips": [
+      "Use templates to copy a trending style in minutes.",
+      "Check captions carefully: names and Urdu words are often misheard.",
+      "Use only music you have the rights to if you post for a business."
+    ],
+    "limitations": [
+      "Some effects and AI tools need CapCut Pro.",
+      "Read the terms: CapCut's licence on uploaded content has worried some creators."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Usually no watermark on your own footage.",
+    "cheapestPaidPlan": "Pro — $19.99/month or $179.99/year",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "website": "https://www.descript.com",
+    "affiliateUrl": "",
+    "shortDescription": "Edit video and podcasts by editing the text transcript.",
+    "bestFor": "Editing talking videos and podcasts as easily as editing a document",
+    "about": [
+      "Descript turns your video or audio into a transcript. To cut something, you delete the words from the text and Descript cuts the video for you.",
+      "It also removes filler words like \"um\", improves audio quality, fixes eye contact and can record your screen."
+    ],
+    "useCases": [
+      "Edit YouTube talking-head videos",
+      "Edit podcasts",
+      "Remove \"ums\" and long pauses",
+      "Make tutorials with screen recording",
+      "Cut short clips from long videos"
+    ],
+    "features": [
+      "Edit video by editing text",
+      "Filler word and silence removal",
+      "Studio Sound to clean up audio",
+      "Screen and webcam recording",
+      "AI voice to fix a word you said wrong"
+    ],
+    "howToUse": [
+      { "title": "Sign up and install", "text": "Create an account at descript.com and use the web or desktop app." },
+      { "title": "Import your video", "text": "Start a project and drag in your video or audio file. Descript writes the transcript." },
+      { "title": "Edit the text", "text": "Delete words and sentences in the transcript to cut them from the video." },
+      { "title": "Clean up", "text": "Remove filler words and turn on Studio Sound for better audio." },
+      { "title": "Export", "text": "Export the video or publish a link." }
+    ],
+    "tips": [
+      "Fix transcript mistakes first so search and captions are correct.",
+      "Use the AI assistant to suggest short clips for social media."
+    ],
+    "limitations": [
+      "Transcription works best for English and some other major languages.",
+      "The free plan has a small amount of media time per month."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "60 media minutes per month and some free AI credits.",
+    "cheapestPaidPlan": "Hobbyist — $16/month yearly or $24 monthly",
+    "otherPlans": ["Creator — $24/month yearly or $35 monthly"],
+    "pricingNote": "US prices, per person.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "opus-clip",
+    "name": "OpusClip",
+    "website": "https://www.opus.pro",
+    "affiliateUrl": "",
+    "shortDescription": "Turns long videos into short viral clips automatically.",
+    "bestFor": "Turning long YouTube videos and podcasts into many Shorts and Reels",
+    "about": [
+      "OpusClip watches your long video, finds the best moments and turns them into short vertical clips with captions. Each clip gets a \"virality score\" guess.",
+      "It saves podcasters and YouTubers hours of manual cutting."
+    ],
+    "useCases": [
+      "Cut a podcast into Shorts",
+      "Turn a webinar into social clips",
+      "Add animated captions to clips",
+      "Schedule clips to social media"
+    ],
+    "features": [
+      "Finds highlight moments automatically",
+      "Reframes to vertical and follows the speaker",
+      "Animated captions",
+      "Scheduler for social platforms"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at opus.pro." },
+      { "title": "Add your video", "text": "Paste a YouTube link or upload a file." },
+      { "title": "Choose settings", "text": "Pick clip length, caption style and which part of the video to use." },
+      { "title": "Review the clips", "text": "Watch the suggested clips and edit the start, end and captions." },
+      { "title": "Export or schedule", "text": "Download the clips or post them directly." }
+    ],
+    "tips": [
+      "Clear speech and good audio give better clip choices.",
+      "Don't trust the virality score too much. Watch each clip yourself."
+    ],
+    "limitations": [
+      "Free clips have a watermark and expire after a few days.",
+      "Works best with talking videos, not music or gameplay."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "60 credits per month, with a watermark.",
+    "cheapestPaidPlan": "Starter — $15/month",
+    "otherPlans": ["Pro — $29/month (less billed yearly)"],
+    "pricingNote": "US prices. One credit is about one minute of video processed.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "veed",
+    "name": "VEED",
+    "website": "https://www.veed.io",
+    "affiliateUrl": "",
+    "shortDescription": "Online video editor with subtitles, translation and AI tools.",
+    "bestFor": "Quick online editing, subtitles and translations without installing anything",
+    "about": [
+      "VEED is a video editor that works in your browser. It is quick for simple edits and especially good at subtitles: it can transcribe, translate and style captions in many languages.",
+      "It also has a screen recorder, a teleprompter and AI avatars."
+    ],
+    "useCases": [
+      "Add and translate subtitles",
+      "Quick edits for social media",
+      "Record your screen and webcam",
+      "Resize a video for different platforms"
+    ],
+    "features": [
+      "Auto subtitles and translation",
+      "Browser-based editor",
+      "Screen recorder",
+      "Background noise removal"
+    ],
+    "howToUse": [
+      { "title": "Open VEED", "text": "Go to veed.io and create an account." },
+      { "title": "Upload your video", "text": "Upload a file or paste a link." },
+      { "title": "Add subtitles", "text": "Click Subtitles > Auto subtitle, choose the language, and fix any mistakes." },
+      { "title": "Edit and export", "text": "Trim, add text and music, then export." }
+    ],
+    "tips": [
+      "Translate subtitles to reach viewers in other languages.",
+      "Upload in good quality: exports can't be better than the original."
+    ],
+    "limitations": [
+      "Free exports have a watermark.",
+      "Big files can be slow to upload on a weak internet connection."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free editing with a watermark on exports.",
+    "cheapestPaidPlan": "Lite — from about $12/month billed yearly",
+    "pricingNote": "US prices. The Lite prices we found ranged from $12 to $24 per month, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(:root:not([data-theme="light"]) *));
+
+/* Design tokens. Dark is the default; light overrides the same names. */
+:root {
+  color-scheme: dark;
+  --bg: #0a0506;
+  --surface: #171012;
+  --line: #3a2a2d;
+  --fg: #f7f2f2;
+  --muted: #bda9ab;
+  --accent: #ff7077;
+  --button: #cf2c36;
+  --button-hover: #b5232c;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #fdfbfb;
+  --surface: #f5eff0;
+  --line: #dccfd1;
+  --fg: #1a0b0d;
+  --muted: #66514f;
+  --accent: #b8202a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-button: var(--button);
+  --color-button-hover: var(--button-hover);
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-sora), system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-bg font-sans text-fg antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-balance;
+  }
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+}
+
+/* Article text colors follow the theme tokens. Unlayered, so it wins over the plugin defaults. */
+.prose {
+  --tw-prose-body: var(--fg);
+  --tw-prose-headings: var(--fg);
+  --tw-prose-lead: var(--muted);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--fg);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-hr: var(--line);
+  --tw-prose-quotes: var(--fg);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-captions: var(--muted);
+  --tw-prose-code: var(--fg);
+  --tw-prose-pre-code: var(--fg);
+  --tw-prose-pre-bg: var(--surface);
+  --tw-prose-th-borders: var(--line);
+  --tw-prose-td-borders: var(--line);
+}

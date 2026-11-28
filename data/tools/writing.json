@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "website": "https://claude.ai",
+    "affiliateUrl": "",
+    "shortDescription": "AI assistant for writing, analysis and coding.",
+    "bestFor": "Long, natural-sounding writing and careful work with long documents",
+    "about": [
+      "Claude is the AI assistant from Anthropic. Many people use it for writing because its answers sound natural and it follows detailed instructions closely.",
+      "It can read long documents, write and edit articles, analyse data and write code. It can also make files such as documents and small web apps right in the chat."
+    ],
+    "useCases": [
+      "Write and edit blog posts, reports and emails",
+      "Rewrite text in a different tone",
+      "Read a long contract or report and pull out key points",
+      "Analyse a spreadsheet or CSV file",
+      "Write and explain code"
+    ],
+    "features": [
+      "Reads long PDFs and documents",
+      "Projects: keep files and instructions for one subject together",
+      "Artifacts: makes documents, charts and small apps you can open and edit",
+      "Web search with sources"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Go to claude.ai or install the app and sign up with Google or an email address." },
+      { "title": "Give it your style", "text": "Paste a sample of your writing and say \"write like this\". Claude is good at matching a voice." },
+      { "title": "Describe the task in detail", "text": "Say who the reader is, the length, the tone and anything it must include or avoid." },
+      { "title": "Upload files when needed", "text": "Attach PDFs, documents or spreadsheets and ask questions about them." },
+      { "title": "Edit together", "text": "Ask for specific changes, such as \"rewrite only the second paragraph\" or \"cut this to 100 words\"." }
+    ],
+    "tips": [
+      "Put your instructions in a Project so you don't have to repeat them in every chat.",
+      "Ask \"what is unclear in my request?\" before a big task.",
+      "For coding help in your own project, see Claude Code in the coding tools."
+    ],
+    "examplePrompt": "Here is my rough draft for a blog post about saving money as a student. Keep my ideas and voice, fix the flow and grammar, and add a short, friendly ending.",
+    "limitations": [
+      "The free plan has usage limits that reset over time.",
+      "It can still make mistakes. Check facts and numbers."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Check the website for current limits.",
+    "cheapestPaidPlan": "Pro — $20/month ($17/month billed yearly)",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "website": "https://www.grammarly.com",
+    "affiliateUrl": "",
+    "shortDescription": "Grammar checker and AI writing assistant.",
+    "bestFor": "Fixing grammar and spelling everywhere you type in English",
+    "about": [
+      "Grammarly checks your English as you type. It underlines mistakes in spelling, grammar and punctuation and suggests a fix you can accept with one click.",
+      "It works in your browser, in Word, in Google Docs and on your phone keyboard. It also has AI features to rewrite sentences or draft text."
+    ],
+    "useCases": [
+      "Check emails before you send them",
+      "Fix grammar in assignments and reports",
+      "Make writing clearer and shorter",
+      "Change the tone of a message to more formal or friendly"
+    ],
+    "features": [
+      "Spelling, grammar and punctuation checks as you type",
+      "Browser extension, desktop app and phone keyboard",
+      "Tone detector",
+      "AI rewrites and drafts from a prompt"
+    ],
+    "howToUse": [
+      { "title": "Create an account", "text": "Sign up at grammarly.com." },
+      { "title": "Install where you write", "text": "Add the browser extension for Chrome or Edge, and the desktop app or phone keyboard if you want it there too." },
+      { "title": "Write as normal", "text": "Grammarly underlines problems. Click an underline to see the fix and why." },
+      { "title": "Set your goals", "text": "Tell it the audience and how formal you want to be, so suggestions fit the situation." }
+    ],
+    "tips": [
+      "Don't accept every suggestion. Read each one and keep your own meaning.",
+      "Set British or American English in settings to match your school or job."
+    ],
+    "limitations": [
+      "It works for English only.",
+      "Advanced suggestions and more AI use need the paid plan."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "100 AI prompts per month.",
+    "cheapestPaidPlan": "Pro — $12/month yearly or $30 monthly",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "quillbot",
+    "name": "QuillBot",
+    "website": "https://quillbot.com",
+    "affiliateUrl": "",
+    "shortDescription": "Paraphrasing and grammar tool.",
+    "bestFor": "Rewriting sentences in different words and summarising text",
+    "about": [
+      "QuillBot rewrites (paraphrases) your text in different words while keeping the meaning. It also has a grammar checker, a summariser, a citation generator and a translator.",
+      "Students use it a lot to understand and rephrase sources. Remember that paraphrasing someone else's work still needs a citation."
+    ],
+    "useCases": [
+      "Rewrite a sentence that sounds awkward",
+      "Summarise an article into key points",
+      "Check grammar",
+      "Make citations for an assignment"
+    ],
+    "features": [
+      "Paraphraser with modes such as Standard, Fluency and Formal",
+      "Summariser",
+      "Grammar checker",
+      "Citation generator and translator"
+    ],
+    "howToUse": [
+      { "title": "Open the Paraphraser", "text": "Go to quillbot.com. You can try it without an account." },
+      { "title": "Paste your text", "text": "Paste a sentence or paragraph into the left box." },
+      { "title": "Choose a mode", "text": "Pick a mode such as Standard or Formal, and move the synonyms slider to change how much it rewrites." },
+      { "title": "Compare and choose", "text": "Click words in the result to see other options, then copy the version you like." }
+    ],
+    "tips": [
+      "Paraphrase one paragraph at a time for better results.",
+      "Always read the result. A rewrite can change the meaning slightly."
+    ],
+    "limitations": [
+      "The free plan rewrites only 125 words at a time and has fewer modes.",
+      "Using it to hide copied work is still plagiarism. Cite your sources."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Paraphrase up to 125 words at a time.",
+    "cheapestPaidPlan": "Premium — $19.95/month or $8.33/month yearly",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "website": "https://elevenlabs.io",
+    "affiliateUrl": "",
+    "shortDescription": "AI voice generator and text to speech.",
+    "bestFor": "The most natural AI voice-overs, voice cloning and dubbing",
+    "about": [
+      "ElevenLabs turns text into very natural speech. It is the most popular tool for voice-overs on YouTube, audiobooks, ads and apps.",
+      "You can choose from a large voice library, clone your own voice (with permission), dub videos into other languages, and make sound effects."
+    ],
+    "useCases": [
+      "YouTube and Reels voice-overs",
+      "Audiobooks and podcasts",
+      "Dub a video into another language",
+      "Clone your own voice for content",
+      "Sound effects"
+    ],
+    "features": [
+      "Very natural text to speech in many languages",
+      "Large voice library",
+      "Voice cloning",
+      "Dubbing and speech to speech",
+      "Sound effects and music"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at elevenlabs.io." },
+      { "title": "Open Text to Speech", "text": "Paste your script into the text box." },
+      { "title": "Choose a voice", "text": "Pick a voice from the library that fits your content." },
+      { "title": "Adjust settings", "text": "Change stability and style. Lower stability sounds more expressive, higher sounds more even." },
+      { "title": "Generate and download", "text": "Listen, regenerate lines that sound wrong, and download the audio." }
+    ],
+    "tips": [
+      "Use commas and full stops to control pauses.",
+      "Generate long scripts in parts so you can fix single lines.",
+      "Only clone voices you have permission to use."
+    ],
+    "limitations": [
+      "The free plan can't be used commercially and requires credit to ElevenLabs.",
+      "Urdu pronunciation can be uneven. Test before you publish."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "10,000 credits per month. No commercial use.",
+    "cheapestPaidPlan": "Starter — $6/month",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "murf-ai",
+    "name": "Murf AI",
+    "website": "https://murf.ai",
+    "affiliateUrl": "",
+    "shortDescription": "Text to speech studio for voice-overs in videos and presentations.",
+    "bestFor": "Clean, professional voice-overs for business videos and presentations",
+    "about": [
+      "Murf AI is a voice-over studio. You paste a script, pick a voice, and line it up with your video or slides on a timeline.",
+      "It is aimed at business use, such as training, explainers and ads, and has controls for pitch, speed and emphasis on single words."
+    ],
+    "useCases": [
+      "Voice-overs for explainer videos",
+      "Narration for presentations and e-learning",
+      "Ads and product demos",
+      "Phone and IVR messages"
+    ],
+    "features": [
+      "Many voices and languages",
+      "Timeline to sync voice with video",
+      "Control of pitch, speed and emphasis",
+      "Pronunciation editor"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at murf.ai." },
+      { "title": "Create a project", "text": "Start a new project and paste your script." },
+      { "title": "Choose a voice", "text": "Pick a voice and listen to samples." },
+      { "title": "Fine-tune", "text": "Add pauses, change speed and emphasise key words." },
+      { "title": "Export", "text": "Download the audio, or the video if you added one." }
+    ],
+    "tips": [
+      "Use the pronunciation tool for brand names and local names.",
+      "Keep a consistent voice across a series of videos."
+    ],
+    "limitations": [
+      "Voice time on the cheapest plan is about 2 hours a month.",
+      "Downloads and commercial use need a paid plan."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A free plan to try voices, with limited generation.",
+    "cheapestPaidPlan": "Creator — $29/month or $19/month yearly",
+    "pricingNote": "US prices. Sources showed slightly different plan names, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "speechify",
+    "name": "Speechify",
+    "website": "https://speechify.com",
+    "affiliateUrl": "",
+    "shortDescription": "Reads any text, PDF or web page aloud in a natural voice.",
+    "bestFor": "Listening to books, PDFs and articles instead of reading them",
+    "about": [
+      "Speechify reads text aloud. It works with PDFs, web pages, documents, emails and photos of printed pages, on phone, computer and as a browser extension.",
+      "Many students and people with dyslexia use it to study faster by listening."
+    ],
+    "useCases": [
+      "Listen to study notes and PDFs",
+      "Listen to articles while travelling",
+      "Help with reading difficulties",
+      "Proofread your own writing by ear"
+    ],
+    "features": [
+      "Reads PDFs, websites and documents",
+      "Scan printed pages with your camera",
+      "Change reading speed",
+      "Phone apps and browser extension"
+    ],
+    "howToUse": [
+      { "title": "Install", "text": "Install the app or the Chrome extension from speechify.com." },
+      { "title": "Add something to read", "text": "Open a PDF, a web page, or take a photo of a page." },
+      { "title": "Press play", "text": "Choose a voice and speed, and listen." },
+      { "title": "Speed up over time", "text": "Increase the speed slowly as you get used to listening." }
+    ],
+    "tips": [
+      "Listening while you read along helps you remember more.",
+      "Use the browser extension to listen to long articles."
+    ],
+    "limitations": [
+      "The free plan has fewer voices and lower speeds.",
+      "Premium is expensive if you pay monthly."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Basic voices at normal speeds.",
+    "cheapestPaidPlan": "Premium — $139/year or $29/month",
+    "pricingNote": "US prices. Speechify Studio, for voice-overs, is a separate product.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

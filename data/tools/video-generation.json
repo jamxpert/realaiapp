@@ -1,0 +1,185 @@
+[
+  {
+    "slug": "kling-ai",
+    "name": "Kling AI",
+    "website": "https://klingai.com",
+    "affiliateUrl": "",
+    "shortDescription": "AI video generator that makes realistic clips from text or a photo.",
+    "bestFor": "Realistic AI video clips from a photo or text, at a low price",
+    "about": [
+      "Kling AI makes short video clips from a text description or by animating a photo. It is known for realistic movement and good value, with a free daily allowance.",
+      "Creators use it for B-roll, ads, music videos and bringing still images to life."
+    ],
+    "useCases": [
+      "Animate a photo into a short clip",
+      "Make B-roll for YouTube videos",
+      "Short ad and product videos",
+      "Music video and story scenes"
+    ],
+    "features": [
+      "Text to video and image to video",
+      "Start and end frame control",
+      "Lip sync and sound effects",
+      "Free daily credits"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at klingai.com." },
+      { "title": "Choose image or text to video", "text": "Image to video usually gives more control. Upload a clear photo." },
+      { "title": "Describe the movement", "text": "Say what moves and how: \"the camera slowly pushes in, her hair moves in the wind\"." },
+      { "title": "Generate and wait", "text": "Generation can take a few minutes. Try a few versions." },
+      { "title": "Download and edit", "text": "Download the clip and put clips together in CapCut or another editor." }
+    ],
+    "tips": [
+      "Describe camera movement (pan, zoom, tracking shot) for more cinematic results.",
+      "Keep each clip simple: one subject, one action."
+    ],
+    "examplePrompt": "the camera slowly moves closer as steam rises from a cup of chai on a wooden table, morning sunlight through the window, cinematic",
+    "limitations": [
+      "Free generations are slower and may have a watermark.",
+      "Hands, text and fast action can still look wrong."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free daily credits, with slower generation.",
+    "cheapestPaidPlan": "Standard — about $10/month (660 credits)",
+    "pricingNote": "US prices. The first month is often discounted. Credits expire each month.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "website": "https://runwayml.com",
+    "affiliateUrl": "",
+    "shortDescription": "Creative AI video tools for generating and editing video.",
+    "bestFor": "Filmmakers and creators who want control over AI-generated video",
+    "about": [
+      "Runway is one of the leading AI video companies. Its models generate video from text and images, and it has tools to change the style of a video, remove objects and extend shots.",
+      "It is aimed at creative professionals, with controls for camera movement and consistent characters."
+    ],
+    "useCases": [
+      "Short film and music video scenes",
+      "Ads and product videos",
+      "Change the style of a real video",
+      "Remove objects from footage"
+    ],
+    "features": [
+      "Text and image to video",
+      "Video to video style change",
+      "Camera and motion controls",
+      "Editing tools such as object removal"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at runwayml.com." },
+      { "title": "Pick a tool", "text": "Choose video generation, or an editing tool." },
+      { "title": "Add an image and prompt", "text": "Upload a starting image if you have one and describe the motion." },
+      { "title": "Generate and compare", "text": "Generate a few versions and keep the best." }
+    ],
+    "tips": [
+      "Start from a strong image: it gives more control than text alone.",
+      "Use shorter clips while testing to save credits."
+    ],
+    "limitations": [
+      "Credits go quickly: the Standard plan gives under a minute of the top model.",
+      "Plan credits expire each month."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A one-time pack of free credits.",
+    "cheapestPaidPlan": "Standard — $15/month ($12/month yearly), 625 credits",
+    "pricingNote": "US prices.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "heygen",
+    "name": "HeyGen",
+    "website": "https://www.heygen.com",
+    "affiliateUrl": "",
+    "shortDescription": "Makes videos with AI avatars that speak your script, and translates videos.",
+    "bestFor": "Talking-avatar videos and translating your own videos with lip sync",
+    "about": [
+      "HeyGen makes videos where an AI avatar reads your script. You can use a ready-made avatar or create one of yourself, so you can make videos without filming every time.",
+      "It can also translate a video of you into other languages, with your voice and lip movements matched."
+    ],
+    "useCases": [
+      "Training and explainer videos",
+      "Faceless YouTube or social videos",
+      "Translate your videos into other languages",
+      "Personalised sales videos"
+    ],
+    "features": [
+      "Ready-made and custom avatars",
+      "Video translation with lip sync",
+      "Script to video",
+      "Templates for common video types"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at heygen.com." },
+      { "title": "Choose an avatar", "text": "Pick a stock avatar, or record a short clip to create your own." },
+      { "title": "Add your script", "text": "Type or paste the script and choose a voice and language." },
+      { "title": "Add scenes", "text": "Add backgrounds, text and images for each scene." },
+      { "title": "Generate", "text": "Generate the video and download it." }
+    ],
+    "tips": [
+      "Write short sentences. They sound more natural from an avatar.",
+      "Tell viewers when a video uses an AI avatar."
+    ],
+    "limitations": [
+      "Free videos are short and limited in number.",
+      "Avatars can still look slightly unnatural in long videos."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Up to 3 short videos per month.",
+    "cheapestPaidPlan": "Creator — $29/month ($24/month yearly)",
+    "pricingNote": "US prices.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "website": "https://www.synthesia.io",
+    "affiliateUrl": "",
+    "shortDescription": "AI avatar videos for training and business, in many languages.",
+    "bestFor": "Company training and how-to videos with AI presenters",
+    "about": [
+      "Synthesia makes presenter-style videos from a script, with AI avatars in many languages. It is built for businesses, such as training, onboarding and product explainers.",
+      "You can edit it like a slide deck, and update a video by changing the text instead of filming again."
+    ],
+    "useCases": [
+      "Employee training videos",
+      "Product how-to videos",
+      "The same video in many languages",
+      "Internal announcements"
+    ],
+    "features": [
+      "Many stock avatars and voices",
+      "Slide-style editor",
+      "Many languages",
+      "Templates for business videos"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at synthesia.io." },
+      { "title": "Choose a template", "text": "Pick a template and an avatar." },
+      { "title": "Write the script", "text": "Add text for each scene. The avatar reads it." },
+      { "title": "Generate and share", "text": "Generate the video and download or share a link." }
+    ],
+    "tips": [
+      "Break the script into short scenes, like slides.",
+      "Use screen recordings in scenes for software tutorials."
+    ],
+    "limitations": [
+      "Video minutes are limited each month and don't roll over.",
+      "Better for business videos than for entertainment."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "A free plan with a few minutes of video. Check the website for limits.",
+    "cheapestPaidPlan": "Starter — about $18/month billed yearly",
+    "pricingNote": "US prices. Monthly billing costs more.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

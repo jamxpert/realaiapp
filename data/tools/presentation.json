@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "gamma",
+    "name": "Gamma",
+    "website": "https://gamma.app",
+    "affiliateUrl": "",
+    "shortDescription": "Makes presentations, documents and web pages with AI.",
+    "bestFor": "A good-looking presentation from a topic or your notes in a few minutes",
+    "about": [
+      "Gamma makes presentations, documents and simple websites from a prompt or your notes. You describe the topic, approve an outline, pick a theme, and it builds the full deck with layouts and images.",
+      "You can then edit every card, and export to PowerPoint, PDF or Google Slides."
+    ],
+    "useCases": [
+      "Class and university presentations",
+      "Business pitches and proposals",
+      "Turn notes or a document into slides",
+      "Simple one-page websites"
+    ],
+    "features": [
+      "Full deck from a prompt or pasted text",
+      "Outline step before it builds",
+      "Themes and AI images",
+      "Export to PowerPoint, PDF and Google Slides"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at gamma.app." },
+      { "title": "Choose Generate or Paste in text", "text": "Type a topic, or paste your notes so the slides use your content." },
+      { "title": "Edit the outline", "text": "Change, add or remove slide titles before it builds." },
+      { "title": "Pick a theme", "text": "Choose a look and let Gamma build the slides." },
+      { "title": "Edit and export", "text": "Fix the text, swap images, then present or export." }
+    ],
+    "tips": [
+      "Paste your own notes for accurate content instead of only a topic.",
+      "Check every fact and number before presenting."
+    ],
+    "examplePrompt": "A 10-slide presentation for university students on how to save money each month, with simple tips, a sample budget and a short quiz at the end.",
+    "limitations": [
+      "Free credits are one-time, not monthly.",
+      "Exports to PowerPoint can need small layout fixes."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "400 one-time credits when you sign up.",
+    "cheapestPaidPlan": "Plus — $12/month ($9/month yearly)",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown",
+    "reviewSlug": "gamma-review"
+  },
+  {
+    "slug": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "website": "https://www.beautiful.ai",
+    "affiliateUrl": "",
+    "shortDescription": "Presentation software with smart slides that design themselves.",
+    "bestFor": "Professional business slides that always stay neat as you edit",
+    "about": [
+      "Beautiful.ai uses \"smart slides\": when you add text or items, the layout adjusts itself so slides always look neat and on-brand.",
+      "It can also create a first draft of a deck from a prompt, and teams can share brand templates."
+    ],
+    "useCases": [
+      "Sales and pitch decks",
+      "Company reports",
+      "Team presentations with a shared brand",
+      "Charts and timelines"
+    ],
+    "features": [
+      "Smart slide templates that adjust automatically",
+      "AI deck drafts from a prompt",
+      "Brand themes for teams",
+      "Export to PowerPoint"
+    ],
+    "howToUse": [
+      { "title": "Start a trial", "text": "Sign up at beautiful.ai and start the free trial." },
+      { "title": "Create a deck", "text": "Generate a draft from a prompt or start with a template." },
+      { "title": "Add smart slides", "text": "Pick slide types like timeline, chart or comparison and add your content." },
+      { "title": "Share or export", "text": "Present from the browser, share a link, or export to PowerPoint." }
+    ],
+    "tips": [
+      "Choose the slide type first, then add content, so the layout works for you.",
+      "Set your brand colours and logo before making many decks."
+    ],
+    "limitations": [
+      "No free plan, only a 14-day trial that needs a card.",
+      "Less freedom than PowerPoint if you want a custom layout."
+    ],
+    "freePlan": false,
+    "freePlanDetails": "No free plan. 14-day free trial.",
+    "cheapestPaidPlan": "Pro — about $14.50/month billed yearly",
+    "pricingNote": "US prices. Some pages still show $12/month, so check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "napkin-ai",
+    "name": "Napkin AI",
+    "website": "https://www.napkin.ai",
+    "affiliateUrl": "",
+    "shortDescription": "Turns your text into diagrams, flowcharts and infographics.",
+    "bestFor": "Turning a paragraph into a clear diagram or infographic for slides and posts",
+    "about": [
+      "Napkin AI reads your text and suggests visuals for it: diagrams, flowcharts, timelines, mind maps and infographics. You choose one, change the style, and export it.",
+      "It is great for making slides, reports and LinkedIn posts easier to understand."
+    ],
+    "useCases": [
+      "Diagrams for presentations",
+      "Infographics for social media",
+      "Process flowcharts",
+      "Visual summaries for reports"
+    ],
+    "features": [
+      "Visual suggestions from text",
+      "Many diagram types and styles",
+      "Edit colours, icons and text",
+      "Export as PNG, SVG or PDF"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at napkin.ai." },
+      { "title": "Paste your text", "text": "Create a new napkin and paste a paragraph or list." },
+      { "title": "Generate a visual", "text": "Click the spark icon next to the text and pick a suggested diagram." },
+      { "title": "Style and export", "text": "Change colours and icons, then export." }
+    ],
+    "tips": [
+      "Short, structured text (steps or a list) gives the clearest diagrams.",
+      "Export as SVG for sharp images in presentations."
+    ],
+    "limitations": [
+      "Free exports may have a watermark.",
+      "It makes diagrams, not full slide decks."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "500 AI credits per week.",
+    "cheapestPaidPlan": "Plus — $12/month ($9/month yearly)",
+    "pricingNote": "US prices, per person.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

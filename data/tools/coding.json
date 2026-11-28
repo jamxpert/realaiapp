@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "website": "https://cursor.com",
+    "affiliateUrl": "",
+    "shortDescription": "Code editor with AI built in that can write and change code across your project.",
+    "bestFor": "Developers who want AI to write, explain and change code inside their editor",
+    "about": [
+      "Cursor is a code editor built on VS Code, with AI built into every part. It suggests the next lines as you type, answers questions about your code, and its agent can make changes across many files at once.",
+      "If you already use VS Code, it feels familiar: your extensions, themes and shortcuts carry over."
+    ],
+    "useCases": [
+      "Write new features from a plain-English description",
+      "Find and fix bugs",
+      "Understand a codebase you didn't write",
+      "Refactor and rename across many files",
+      "Write tests"
+    ],
+    "features": [
+      "Tab: smart autocomplete that predicts your next edit",
+      "Agent mode that plans and edits across files and runs commands",
+      "Chat that knows your whole project",
+      "Choice of AI models from several companies",
+      "Imports your VS Code settings and extensions"
+    ],
+    "howToUse": [
+      { "title": "Download and install", "text": "Download Cursor from cursor.com for Windows, Mac or Linux and sign in." },
+      { "title": "Import VS Code settings", "text": "On first start, choose to import your VS Code extensions and settings." },
+      { "title": "Open your project folder", "text": "Use File > Open Folder. Cursor indexes the code so the AI understands it." },
+      { "title": "Ask the agent", "text": "Open the AI panel and describe the change, for example \"add a dark mode toggle to the settings page\"." },
+      { "title": "Review every change", "text": "Cursor shows a diff. Read it, accept or reject parts, and run your app to test." }
+    ],
+    "tips": [
+      "Use git and commit before big AI changes, so you can undo easily.",
+      "Add a rules file with your project's conventions so the AI follows them.",
+      "Mention specific files with @ to give the AI the right context."
+    ],
+    "examplePrompt": "Add form validation to the signup page: email must be valid and the password at least 8 characters. Show errors under each field and add a test.",
+    "limitations": [
+      "Paid plans use credits. Heavy use of the strongest models can run out fast.",
+      "AI code can look right and still have bugs or security holes. Review and test it."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Hobby plan with limited AI completions and requests.",
+    "cheapestPaidPlan": "Pro — $20/month ($16/month billed yearly)",
+    "otherPlans": ["Pro+ — $60/month", "Ultra — $200/month"],
+    "pricingNote": "US prices. Paid plans include a monthly amount of AI usage.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "website": "https://github.com/features/copilot",
+    "affiliateUrl": "",
+    "shortDescription": "AI pair programmer from GitHub that works in VS Code and other editors.",
+    "bestFor": "AI code suggestions in the editor you already use, at a low price",
+    "about": [
+      "GitHub Copilot suggests code as you type and answers coding questions in a chat panel. It works in VS Code, Visual Studio, JetBrains editors and on github.com.",
+      "It has a free plan, and it is free for verified students and teachers, which makes it a good first AI coding tool."
+    ],
+    "useCases": [
+      "Autocomplete lines and whole functions",
+      "Ask questions about code in chat",
+      "Generate tests and documentation",
+      "Let the agent fix an issue and open a pull request on GitHub"
+    ],
+    "features": [
+      "Code completions in many editors",
+      "Copilot Chat with knowledge of your open files",
+      "Agent mode for multi-file changes",
+      "Coding agent that works on GitHub issues"
+    ],
+    "howToUse": [
+      { "title": "Sign in to GitHub", "text": "You need a free GitHub account." },
+      { "title": "Turn on Copilot", "text": "Go to github.com/features/copilot and start the free plan, or apply for student access through GitHub Education." },
+      { "title": "Install the extension", "text": "In VS Code, install the GitHub Copilot extension and sign in with GitHub." },
+      { "title": "Start typing", "text": "Write a comment describing what you want, then press Tab to accept the suggestion." },
+      { "title": "Open Copilot Chat", "text": "Ask questions like \"explain this function\" or \"why does this throw an error?\"." }
+    ],
+    "tips": [
+      "A clear comment above a function gives much better suggestions.",
+      "Students: apply through GitHub Education for free access."
+    ],
+    "examplePrompt": "Write a function that takes a list of prices and returns the total with 17% sales tax, rounded to 2 decimals, and add 3 unit tests.",
+    "limitations": [
+      "The free plan has a monthly limit on completions and chat.",
+      "Suggestions can be outdated or insecure. Review them."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Up to 2,000 code completions per month and limited chat. Free for verified students and teachers.",
+    "cheapestPaidPlan": "Pro — $10/month or $100/year",
+    "otherPlans": ["Pro+ — $39/month"],
+    "pricingNote": "US prices. GitHub has changed how usage is counted in 2026, so check the website for current limits.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "website": "https://claude.com/product/claude-code",
+    "affiliateUrl": "",
+    "shortDescription": "Anthropic's coding agent that works in your terminal, editor or browser.",
+    "bestFor": "Handing bigger coding tasks to an agent that reads, edits and tests your project",
+    "about": [
+      "Claude Code is a coding agent from Anthropic. You describe a task, and it reads your project, makes a plan, edits files, runs commands and tests, and explains what it did.",
+      "It runs in the terminal, inside VS Code and JetBrains editors, in the desktop app and on the web. It asks for permission before it changes files or runs commands."
+    ],
+    "useCases": [
+      "Build a feature across many files",
+      "Fix a bug from an error message",
+      "Understand a large, unfamiliar codebase",
+      "Write tests and fix the failures",
+      "Create commits and pull requests"
+    ],
+    "features": [
+      "Reads your whole project and plans changes",
+      "Runs commands and tests and fixes what fails",
+      "Asks for permission before risky actions",
+      "Works in terminal, VS Code, JetBrains, desktop and web"
+    ],
+    "howToUse": [
+      { "title": "Get a plan", "text": "Claude Code needs a paid Claude plan (Pro or higher) or API credit." },
+      { "title": "Install it", "text": "Follow the install steps on Anthropic's website, or install the VS Code extension." },
+      { "title": "Open your project", "text": "Start Claude Code in your project folder and sign in." },
+      { "title": "Describe the task", "text": "Say what you want and how to check it, for example \"fix the failing login test and run the tests again\"." },
+      { "title": "Review and approve", "text": "Read each proposed change and approve it, or ask for a different approach." }
+    ],
+    "tips": [
+      "Add a CLAUDE.md file with your project's commands and rules.",
+      "Ask it to make a plan first for big tasks, then approve the plan.",
+      "Commit your work before a big change so you can roll back."
+    ],
+    "examplePrompt": "Read this project and explain how login works. Then add a \"forgot password\" flow that follows the same patterns, and run the tests.",
+    "limitations": [
+      "There is no free plan. Usage counts against your Claude plan's limits.",
+      "Always review changes before you ship them."
+    ],
+    "freePlan": false,
+    "freePlanDetails": "No free plan. It is included in paid Claude plans.",
+    "cheapestPaidPlan": "Included in Claude Pro — $20/month ($17/month billed yearly)",
+    "otherPlans": ["Claude Max — from $100/month"],
+    "pricingNote": "US prices. Usage is shared with your normal Claude chats.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "website": "https://replit.com",
+    "affiliateUrl": "",
+    "shortDescription": "Build, run and publish apps in your browser with an AI agent.",
+    "bestFor": "Building and putting an app online from the browser, with nothing to install",
+    "about": [
+      "Replit is a coding platform in your browser. Its AI agent can build an app from a description, and Replit runs and publishes it for you, with a database and hosting included.",
+      "It is good for beginners and for quick prototypes, because there is nothing to install and you can work from any computer."
+    ],
+    "useCases": [
+      "Build a website or web app from a description",
+      "Learn to code without installing anything",
+      "Make a quick prototype to show people",
+      "Run small bots and scripts online"
+    ],
+    "features": [
+      "Replit Agent builds apps from a prompt",
+      "Code editor that runs in the browser",
+      "One-click publishing with hosting",
+      "Built-in database and secret storage"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at replit.com." },
+      { "title": "Describe your app", "text": "On the home page, type what you want to build, for example \"a to-do app with login\"." },
+      { "title": "Review the plan", "text": "The agent proposes a plan. Change it or approve it." },
+      { "title": "Test and ask for changes", "text": "Try the app in the preview and tell the agent what to fix or add." },
+      { "title": "Publish", "text": "Click Publish to put it online with a link you can share." }
+    ],
+    "tips": [
+      "Start small, get it working, then add features one at a time.",
+      "Watch your credit use. Big changes use more."
+    ],
+    "examplePrompt": "Build a simple expense tracker: add an expense with amount, category and date, show a monthly total and a pie chart by category.",
+    "limitations": [
+      "Agent work uses credits, and big projects can cost more than the plan price.",
+      "You still need to check security before real users sign up."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Starter plan with limited Agent use and public apps.",
+    "cheapestPaidPlan": "Core — $20/month (less billed yearly)",
+    "pricingNote": "US prices. Core includes a monthly amount of usage credit.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "website": "https://lovable.dev",
+    "affiliateUrl": "",
+    "shortDescription": "Builds full web apps from a chat description, no coding needed.",
+    "bestFor": "Non-coders who want a working web app or website from a description",
+    "about": [
+      "Lovable builds web apps from a conversation. You describe what you want, it writes the code, and you see the result straight away. You keep chatting to change it.",
+      "It can add login, a database and payments, and you can connect it to GitHub to own and edit the code."
+    ],
+    "useCases": [
+      "Build a landing page or website for a business",
+      "Make a prototype of a startup idea",
+      "Create an internal tool, such as a booking form",
+      "Turn a design screenshot into a working page"
+    ],
+    "features": [
+      "Builds apps from chat messages",
+      "Live preview while it builds",
+      "Built-in database, login and hosting",
+      "GitHub sync so you own the code"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create an account at lovable.dev." },
+      { "title": "Describe your app", "text": "Write what it is for, who uses it and the main pages. You can attach a screenshot or sketch." },
+      { "title": "Check the first version", "text": "Look at the preview and click through it." },
+      { "title": "Ask for changes one at a time", "text": "Small, clear requests work best: \"make the header blue\", \"add a contact form\"." },
+      { "title": "Publish", "text": "Publish to get a link, and connect your own domain if you want." }
+    ],
+    "tips": [
+      "Plan your pages and features before you start, so you use fewer credits.",
+      "Connect GitHub early so you have a backup of the code."
+    ],
+    "examplePrompt": "Build a one-page website for a home bakery in Lahore: hero with photo, menu with prices, order form that sends to email, and WhatsApp button.",
+    "limitations": [
+      "Every message uses credits. The free plan gives only a few per day.",
+      "Complex apps still need a developer to review and maintain."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "5 credits per day, up to 30 per month.",
+    "cheapestPaidPlan": "Pro — $25/month (100 credits)",
+    "pricingNote": "US prices. Yearly billing gives two months free.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "v0",
+    "name": "v0",
+    "website": "https://v0.app",
+    "affiliateUrl": "",
+    "shortDescription": "Vercel's AI that turns prompts and screenshots into web pages and apps.",
+    "bestFor": "Making good-looking web pages and UI from a prompt or a screenshot",
+    "about": [
+      "v0 is an AI app builder from Vercel, the company behind Next.js. It is especially good at clean, modern interfaces: describe a page or paste a screenshot, and it builds it in React and Tailwind.",
+      "You can publish to Vercel in one click, or copy the code into your own project."
+    ],
+    "useCases": [
+      "Build a landing page or dashboard design",
+      "Turn a screenshot or Figma design into code",
+      "Make UI components for a Next.js project",
+      "Prototype an app idea quickly"
+    ],
+    "features": [
+      "Generates React and Tailwind code",
+      "Works from text, screenshots and designs",
+      "One-click deploy to Vercel",
+      "Copy code into your own project"
+    ],
+    "howToUse": [
+      { "title": "Sign in", "text": "Go to v0.app and sign in with a Vercel account." },
+      { "title": "Describe or upload", "text": "Type what you want or attach a screenshot of a design you like." },
+      { "title": "Refine in chat", "text": "Ask for changes to colours, layout and content." },
+      { "title": "Publish or export", "text": "Deploy to Vercel, or copy the code into your project." }
+    ],
+    "tips": [
+      "Name the style you want: \"minimal\", \"dark\", \"like a SaaS landing page\".",
+      "Ask for mobile layout checks before you publish."
+    ],
+    "examplePrompt": "Create a pricing page with 3 plans (Free, Pro, Team), a monthly/yearly toggle, a feature comparison table and an FAQ section.",
+    "limitations": [
+      "The free plan has small monthly credits and a daily message limit.",
+      "Best with Next.js and React. Other frameworks need more work."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "$5 of credits per month, with a daily message limit.",
+    "cheapestPaidPlan": "Plus — $30/month",
+    "pricingNote": "US prices. Reports say the older $20 Premium plan is closed to new users. Check the website.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

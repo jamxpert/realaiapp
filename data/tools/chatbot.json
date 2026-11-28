@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "website": "https://chatgpt.com",
+    "affiliateUrl": "",
+    "shortDescription": "Chat, writing and research assistant.",
+    "bestFor": "Everyday questions, writing help, ideas, images and learning anything step by step",
+    "about": [
+      "ChatGPT is the AI assistant from OpenAI. You type (or speak) a question or a task, and it answers in plain language. It can write, explain, translate, summarise, plan, make images and read files you upload.",
+      "It is the best place to start if you are new to AI. One app covers most daily jobs, and the free plan is enough to learn how it works."
+    ],
+    "useCases": [
+      "Write emails, posts, CVs and cover letters",
+      "Explain a hard topic in simple words",
+      "Summarise a long PDF or article",
+      "Plan a trip, a study timetable or a business idea",
+      "Make images from a description",
+      "Practise English or prepare for an interview"
+    ],
+    "features": [
+      "Chat by text or voice, on the web and on phone apps",
+      "Upload PDFs, images and spreadsheets and ask questions about them",
+      "Image generation inside the chat",
+      "Web search with links to sources",
+      "Memory and custom instructions so it remembers your preferences"
+    ],
+    "howToUse": [
+      { "title": "Create an account", "text": "Go to chatgpt.com or install the app and sign up with Google, Apple, Microsoft or an email address." },
+      { "title": "Say who you are and what you need", "text": "Start with context: \"I am a university student in Lahore. Help me...\". The more it knows, the better the answer." },
+      { "title": "Give the task and the format", "text": "Say exactly what you want back, for example \"5 bullet points\", \"a table\" or \"under 150 words\"." },
+      { "title": "Improve the answer in the same chat", "text": "Reply with changes: \"make it shorter\", \"more formal\", \"add examples\". You don't need to start again." },
+      { "title": "Check facts before you use them", "text": "Ask it to search the web and show sources for anything important, then open the links yourself." }
+    ],
+    "tips": [
+      "You can type in Urdu or Roman Urdu and ask for the answer in either language.",
+      "Paste an example of the style you like and say \"write in this style\".",
+      "Use Projects to keep chats and files for one subject together."
+    ],
+    "examplePrompt": "I am applying for a junior marketing job. Here is the job post and my CV. Write a cover letter under 250 words in simple, confident English and list 3 things I should change in my CV.",
+    "limitations": [
+      "It can sound sure and still be wrong. Check names, numbers and dates.",
+      "The free plan has limits on uploads, images and deep research.",
+      "Don't paste passwords, bank details or private documents you aren't allowed to share."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Daily chat with limits on uploads, images and deep research.",
+    "cheapestPaidPlan": "Go — $8/month",
+    "otherPlans": ["Plus — $20/month"],
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "gemini",
+    "name": "Gemini",
+    "website": "https://gemini.google.com",
+    "affiliateUrl": "",
+    "shortDescription": "Google's AI assistant for chat, writing and research.",
+    "bestFor": "People who use Gmail, Google Docs and Android and want AI built into them",
+    "about": [
+      "Gemini is Google's AI assistant. It works like a chatbot on the web and in its phone app, and it is also built into Gmail, Docs, Sheets and Android phones.",
+      "Its strengths are Google Search, YouTube and long documents. It can read a long PDF or video and answer questions about it."
+    ],
+    "useCases": [
+      "Summarise a long email thread in Gmail",
+      "Ask questions about a YouTube video",
+      "Draft a document in Google Docs",
+      "Research a topic with Google Search results",
+      "Make images and short videos"
+    ],
+    "features": [
+      "Connects to Gmail, Drive, Docs, YouTube and Maps when you allow it",
+      "Very long context: it can read big files in one go",
+      "Deep Research writes a report with sources",
+      "Gemini Live for talking to it by voice on your phone"
+    ],
+    "howToUse": [
+      { "title": "Sign in with your Google account", "text": "Open gemini.google.com or the Gemini app. Your normal Gmail account is enough." },
+      { "title": "Ask your question", "text": "Type the task with some context and the format you want, just like any chatbot." },
+      { "title": "Turn on apps if you want them", "text": "In settings, connect Gmail, Drive or YouTube so you can ask things like \"find the invoice email from last week\"." },
+      { "title": "Use Deep Research for big questions", "text": "Choose Deep Research, describe what you need, approve the plan, and wait a few minutes for a report with sources." }
+    ],
+    "tips": [
+      "Paste a YouTube link and ask \"give me the main points with timestamps\".",
+      "Use the \"Double-check\" option to see which sentences Google Search supports.",
+      "Students sometimes get paid plans free for a period. Check Google's student offers."
+    ],
+    "examplePrompt": "Read the PDF I uploaded and make a one-page study sheet: the 10 most important terms with simple definitions and 5 likely exam questions.",
+    "limitations": [
+      "Some features need a paid Google AI plan.",
+      "Like all chatbots it can make mistakes, so check important facts.",
+      "Features arrive in different countries at different times."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Check the website for current limits.",
+    "cheapestPaidPlan": "Google AI Plus — $4.99/month",
+    "otherPlans": ["Google AI Pro — $19.99/month"],
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "website": "https://copilot.microsoft.com",
+    "affiliateUrl": "",
+    "shortDescription": "Microsoft's free AI assistant, also built into Word, Excel and Windows.",
+    "bestFor": "Free everyday chat, and AI inside Word, Excel and PowerPoint",
+    "about": [
+      "Microsoft Copilot is a free AI assistant from Microsoft. You can use it on the web, in the Windows Copilot app, on phones and inside the Edge browser.",
+      "If you pay for Microsoft 365, Copilot also works inside Word, Excel, PowerPoint and Outlook, so you can draft a document or analyse a spreadsheet without leaving the app."
+    ],
+    "useCases": [
+      "Ask questions and get answers with web links",
+      "Draft a document in Word",
+      "Make formulas and charts in Excel",
+      "Turn a Word document into PowerPoint slides",
+      "Make images from text"
+    ],
+    "features": [
+      "Free chat with web search and sources",
+      "Image generation",
+      "Voice conversations",
+      "Built into Word, Excel, PowerPoint and Outlook with Microsoft 365"
+    ],
+    "howToUse": [
+      { "title": "Open Copilot", "text": "Go to copilot.microsoft.com, open the Copilot app in Windows, or install the phone app." },
+      { "title": "Sign in with a Microsoft account", "text": "You can try it without signing in, but an account keeps your chat history and gives more use." },
+      { "title": "Ask your question", "text": "Write the task with context and the format you want." },
+      { "title": "Use it inside Office (paid)", "text": "With Microsoft 365, open Word or Excel and click the Copilot button to ask for help with that file." }
+    ],
+    "tips": [
+      "In Excel, ask \"explain this formula\" or \"add a column that calculates profit\".",
+      "In Edge, open Copilot in the sidebar and ask it to summarise the page you are reading."
+    ],
+    "examplePrompt": "Make a weekly budget table for a student in Karachi with rent, food, transport and savings, and explain how to track it in Excel.",
+    "limitations": [
+      "Copilot inside Word and Excel needs a paid Microsoft 365 plan.",
+      "Answers can be wrong. Open the source links for anything important."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free chat, web search and image making with a Microsoft account.",
+    "cheapestPaidPlan": "Microsoft 365 Personal — $9.99/month or $99.99/year",
+    "otherPlans": ["Microsoft 365 Premium — $19.99/month"],
+    "pricingNote": "US prices. Microsoft 365 also includes Word, Excel, PowerPoint and 1 TB of storage.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "website": "https://chat.deepseek.com",
+    "affiliateUrl": "",
+    "shortDescription": "Free AI chatbot that is strong at maths, logic and code.",
+    "bestFor": "Free help with maths, logic and coding problems",
+    "about": [
+      "DeepSeek is an AI chatbot from a Chinese company of the same name. The chat app is free, and it is especially good at step-by-step reasoning: maths, logic puzzles and code.",
+      "Its models are also released openly, so developers can run them on their own computers or servers."
+    ],
+    "useCases": [
+      "Solve maths problems step by step",
+      "Explain and fix code",
+      "Work through logic and reasoning questions",
+      "Summarise text and answer general questions"
+    ],
+    "features": [
+      "Free chat on the web and phone apps",
+      "\"DeepThink\" mode that shows its reasoning",
+      "Web search option",
+      "Upload files and images to ask about them"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Open chat.deepseek.com or install the app and sign up with an email address or Google." },
+      { "title": "Choose the mode", "text": "Turn on DeepThink for hard maths or logic questions. Leave it off for quick everyday answers." },
+      { "title": "Ask your question", "text": "Paste the full problem, including any numbers, code or error messages." },
+      { "title": "Check the steps", "text": "Read the reasoning and check each step, especially for homework or work you will submit." }
+    ],
+    "tips": [
+      "For maths, ask it to \"solve step by step and check the answer at the end\".",
+      "For code, paste the full error message and the code around it."
+    ],
+    "examplePrompt": "Solve this step by step and explain each step simply: a shop gives 20% off and then another 10% off. Is that the same as 30% off?",
+    "limitations": [
+      "Its privacy policy says user data is stored on servers in China. Don't share private or work information.",
+      "Answers on some political topics are restricted.",
+      "It can be busy and slow at peak times."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "The chat app is free. Developers pay per use for the API.",
+    "cheapestPaidPlan": "No paid chat plan. The API is pay as you go.",
+    "pricingNote": "",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

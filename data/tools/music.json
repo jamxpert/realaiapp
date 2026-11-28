@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "website": "https://suno.com",
+    "affiliateUrl": "",
+    "shortDescription": "Makes full songs with vocals and music from a text prompt.",
+    "bestFor": "Making complete songs with vocals, or background music, from a description",
+    "about": [
+      "Suno makes complete songs, with singing, music and lyrics, from a short description. You can write your own lyrics or let it write them, and choose any style from pop to qawwali-inspired.",
+      "It can also extend songs, make instrumentals for videos, and turn a hummed idea into a track."
+    ],
+    "useCases": [
+      "Background music for videos",
+      "Songs for birthdays and events",
+      "Jingles for small businesses",
+      "Trying out song ideas"
+    ],
+    "features": [
+      "Full songs with vocals from a prompt",
+      "Custom lyrics",
+      "Instrumental mode",
+      "Extend and remix songs"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at suno.com." },
+      { "title": "Click Create", "text": "Describe the song: style, mood, instruments and topic." },
+      { "title": "Use Custom mode for your lyrics", "text": "Paste your own lyrics and describe the style separately." },
+      { "title": "Generate and pick", "text": "Each generation gives you two versions. Keep the better one." },
+      { "title": "Download", "text": "Download the song. Check the licence before using it commercially." }
+    ],
+    "tips": [
+      "Name the genre, tempo and instruments: \"slow acoustic, guitar and tabla, soft female vocals\".",
+      "Use [Verse] and [Chorus] tags in your lyrics to shape the song."
+    ],
+    "examplePrompt": "a happy birthday song for my sister Ayesha, upbeat pop with guitar and claps, simple catchy chorus",
+    "limitations": [
+      "Songs made on the free plan can't be used commercially.",
+      "AI music law is still changing. Check Suno's current terms before using songs in paid work."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Daily free credits for a few songs. No commercial use.",
+    "cheapestPaidPlan": "Pro — $10/month ($8/month yearly)",
+    "otherPlans": ["Premier — about $30/month ($24/month yearly)"],
+    "pricingNote": "US prices. Paid plans include commercial use rights for new songs.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

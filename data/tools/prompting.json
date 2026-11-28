@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "google-ai-studio",
+    "name": "Google AI Studio",
+    "website": "https://aistudio.google.com",
+    "affiliateUrl": "",
+    "shortDescription": "Free playground to test prompts on Google's Gemini models.",
+    "bestFor": "Testing and improving prompts for free, with full control over the settings",
+    "about": [
+      "Google AI Studio is a free web tool for trying prompts on Google's Gemini models. Unlike the normal Gemini app, it lets you set a system prompt, change the temperature, and compare results.",
+      "It is a great place to learn prompt writing, and developers use it to get an API key and turn a working prompt into code."
+    ],
+    "useCases": [
+      "Write and test a system prompt for a chatbot",
+      "Compare how small prompt changes affect the answer",
+      "Test prompts on long documents, images, audio and video",
+      "Get code for a prompt to use in your own app"
+    ],
+    "features": [
+      "System instructions and temperature controls",
+      "Upload files, images, audio and video",
+      "Save and share prompts",
+      "\"Get code\" to copy a working prompt into an app"
+    ],
+    "howToUse": [
+      { "title": "Sign in", "text": "Go to aistudio.google.com and sign in with your Google account." },
+      { "title": "Write the system instructions", "text": "Describe the role and rules, for example \"You are a friendly tutor. Always answer in 3 short steps.\"" },
+      { "title": "Test with real inputs", "text": "Send several example questions, including tricky ones, and read the answers." },
+      { "title": "Change one thing at a time", "text": "Edit one line of the prompt or the temperature, then test again so you know what helped." },
+      { "title": "Save or export", "text": "Save the prompt, or click Get code to use it in an app." }
+    ],
+    "tips": [
+      "A good prompt has: role, task, context, format and an example.",
+      "Lower temperature gives more consistent answers; higher gives more creative ones.",
+      "Keep a list of test questions and rerun them after every change."
+    ],
+    "examplePrompt": "System: You are a customer support assistant for an online clothing shop. Be polite, answer in under 80 words, and if you don't know, say you will connect the customer to a person.",
+    "limitations": [
+      "Free use has rate limits, and Google may use free-tier data to improve its products.",
+      "It is a testing tool, not a polished chat app."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "Free in the browser with rate limits.",
+    "cheapestPaidPlan": "Pay as you go for the Gemini API",
+    "pricingNote": "You pay only if you use the API above the free limits.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "openai-playground",
+    "name": "OpenAI Playground",
+    "website": "https://platform.openai.com/playground",
+    "affiliateUrl": "",
+    "shortDescription": "Test and tune prompts on OpenAI's models before using them in an app.",
+    "bestFor": "Building and testing prompts for apps that use OpenAI's models",
+    "about": [
+      "The OpenAI Playground is a testing area on OpenAI's developer platform. You can write system prompts, try different models, change settings and save prompts to reuse in code.",
+      "It is aimed at people building apps, bots and automations, but it is also a good way to learn how prompts and settings change the output."
+    ],
+    "useCases": [
+      "Write a system prompt for a chatbot or assistant",
+      "Compare models on the same prompt",
+      "Test structured output, such as JSON",
+      "Save a prompt and call it from your app"
+    ],
+    "features": [
+      "System and user messages",
+      "Model choice and settings",
+      "Saved, versioned prompts",
+      "Tools such as web search and file search for testing"
+    ],
+    "howToUse": [
+      { "title": "Create a platform account", "text": "Sign in at platform.openai.com. This is separate from a ChatGPT subscription." },
+      { "title": "Add API credit", "text": "Add a payment method and some credit in Billing. Usage is charged per token." },
+      { "title": "Open the Playground", "text": "Write your system instructions and pick a model." },
+      { "title": "Test and compare", "text": "Send test messages, change one thing, and compare the results." },
+      { "title": "Save the prompt", "text": "Save it to reuse in code with its ID." }
+    ],
+    "tips": [
+      "Ask for output in a fixed format (for example JSON with named fields) when an app will read it.",
+      "Test with bad and unusual inputs, not just easy ones."
+    ],
+    "examplePrompt": "System: Extract the name, phone number and city from the customer's message and reply only with JSON: {\"name\":\"\",\"phone\":\"\",\"city\":\"\"}.",
+    "limitations": [
+      "There is no free plan. You need API credit, and you pay with a card that works for international payments.",
+      "A ChatGPT Plus subscription does not include API credit."
+    ],
+    "freePlan": false,
+    "freePlanDetails": "No free plan. You add API credit first.",
+    "cheapestPaidPlan": "Pay as you go — charged per use",
+    "pricingNote": "Price depends on the model and how much text you send and receive.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  },
+  {
+    "slug": "claude-console",
+    "name": "Claude Console",
+    "website": "https://console.anthropic.com",
+    "affiliateUrl": "",
+    "shortDescription": "Anthropic's developer console with a prompt generator and prompt improver.",
+    "bestFor": "Turning a rough idea into a well-structured prompt with the prompt generator",
+    "about": [
+      "The Claude Console is Anthropic's site for developers. Its Workbench lets you test prompts on Claude models, and it has two helpful tools: a prompt generator that writes a full prompt from a short description, and a prompt improver that rewrites a prompt you already have.",
+      "You can also run your prompt on many test cases at once to see where it fails."
+    ],
+    "useCases": [
+      "Generate a detailed prompt from a one-line idea",
+      "Improve an existing prompt that gives weak answers",
+      "Test a prompt on many examples at once",
+      "Get code to use a prompt in your app"
+    ],
+    "features": [
+      "Prompt generator",
+      "Prompt improver",
+      "Workbench for testing with variables",
+      "Evaluation with multiple test cases"
+    ],
+    "howToUse": [
+      { "title": "Create an account", "text": "Sign up at console.anthropic.com. It is separate from a Claude.ai subscription." },
+      { "title": "Add credit", "text": "Add a payment method and buy API credit in Billing." },
+      { "title": "Generate a prompt", "text": "Click Generate a prompt, describe your task in a sentence or two, and let it write the full prompt." },
+      { "title": "Test it", "text": "Run it in the Workbench with real examples." },
+      { "title": "Improve it", "text": "Use the prompt improver, or edit by hand, and test again." }
+    ],
+    "tips": [
+      "Use the generated prompt as a starting point, then edit it to fit your case.",
+      "Put changing parts in variables like {{customer_message}} so you can test many inputs."
+    ],
+    "examplePrompt": "Task for the prompt generator: \"Write product descriptions for a Pakistani clothing brand from a list of fabric, colour and size details, in a warm tone, under 60 words.\"",
+    "limitations": [
+      "No free plan. You need API credit, paid with a card that works for international payments.",
+      "A Claude Pro subscription does not include API credit."
+    ],
+    "freePlan": false,
+    "freePlanDetails": "No free plan. You add API credit first.",
+    "cheapestPaidPlan": "Pay as you go — charged per use",
+    "pricingNote": "Price depends on the model and how much text you send and receive.",
+    "priceCheckedOn": "2026-11-28",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]

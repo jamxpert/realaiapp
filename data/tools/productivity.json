@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "website": "https://www.notion.com",
+    "affiliateUrl": "",
+    "shortDescription": "Notes and workspace app with AI features.",
+    "bestFor": "Keeping notes, tasks and documents in one place, with AI to search and write",
+    "about": [
+      "Notion is a workspace for notes, documents, task lists and simple databases. Students use it for study notes, and teams use it as a company wiki and project tracker.",
+      "Notion AI can write and summarise inside your pages, answer questions about everything in your workspace, and take meeting notes."
+    ],
+    "useCases": [
+      "Study notes and class planners",
+      "Task and project tracking",
+      "Team wiki and documents",
+      "Content calendars"
+    ],
+    "features": [
+      "Pages, databases and templates",
+      "Notion AI for writing and summaries",
+      "Search across your workspace and connected apps",
+      "AI meeting notes"
+    ],
+    "howToUse": [
+      { "title": "Sign up", "text": "Create a free account at notion.com." },
+      { "title": "Start from a template", "text": "Pick a template such as a student planner or task list." },
+      { "title": "Add your pages", "text": "Type / to add headings, lists, tables and more." },
+      { "title": "Use AI on a page", "text": "Press space on an empty line or select text to ask AI to write, summarise or translate." }
+    ],
+    "tips": [
+      "Keep a simple structure: one page per subject or project.",
+      "Use database views (board, calendar) to see tasks in different ways."
+    ],
+    "limitations": [
+      "Full AI features need the Business plan.",
+      "It can feel slow with very large workspaces."
+    ],
+    "freePlan": true,
+    "freePlanDetails": "AI features only as a trial.",
+    "cheapestPaidPlan": "Full AI on Business — $20/member/month yearly",
+    "pricingNote": "US prices. App store prices in Pakistan may be different.",
+    "priceCheckedOn": "2026-11-24",
+    "urduSupport": "unknown",
+    "needsInternationalCard": "unknown"
+  }
+]
