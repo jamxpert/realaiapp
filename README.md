@@ -192,7 +192,17 @@ page as a plain file into `out/`, and the Worker serves those files on realaiapp
 There is no server code, no database and no environment variables. Settings are in `wrangler.jsonc`;
 security headers are in `public/_headers`.
 
-### Automatic deploy on every push (set up once)
+### Automatic deploy when you push from this computer (already on)
+
+Every `git push` to `main` from this computer builds the site and puts it live on realaiapps.com before
+the push finishes. If the build fails, the push is stopped and the error is shown, so the code on GitHub
+always works. This is done by `.githooks/pre-push`.
+
+- Skip it once: `SKIP_DEPLOY=1 git push`
+- On a new computer or a fresh clone, turn it on with `git config core.hooksPath .githooks` and run
+  `npx wrangler login` once.
+
+### Automatic deploy from GitHub, for pushes from anywhere (optional, set up once)
 
 1. In Cloudflare, open **Workers & Pages → realaiapps → Settings → Build**, and click **Connect** next to
    **Git repository**.
@@ -205,6 +215,7 @@ security headers are in `public/_headers`.
 4. Save. From now on, every push to `main` builds the site and puts it live on realaiapps.com within about
    two minutes. You can follow each build under **Deployments**. If the build fails (for example, a wrong
    field in a tool file), the live site stays as it was and the build log says what is wrong.
+5. Then turn off the hook above so the site isn't deployed twice: `git config --unset core.hooksPath`
 
 ### Deploy by hand from your computer
 

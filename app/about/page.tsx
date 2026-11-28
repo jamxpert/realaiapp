@@ -25,8 +25,9 @@ export default function AboutPage() {
         RealAIApps is run by <strong>{site.author.name}</strong>.
       </p>
       <p>
+        {/* Set your own bio as author.bio in data/site.ts: who you are and why readers can trust you. */}
         {site.author.bio ||
-          "[ADD YOUR EXPERIENCE: who you are, what you do, and why people can trust your opinion on AI tools. Set this text as author.bio in data/site.ts.]"}
+          "RealAIApps is an independent site. No AI company owns it or approves what we write, and we say clearly when a link is an affiliate link."}
       </p>
 
       <h2>Why we started</h2>

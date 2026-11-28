@@ -1,0 +1,30 @@
+#!/bin/sh
+# Auto-deploy: pushing to main builds the site and puts it live on realaiapps.com.
+# If the build fails, the push stops and the error is shown, so main on GitHub always builds.
+# Skip once with:  SKIP_DEPLOY=1 git push
+# Turn on in a fresh clone with:  git config core.hooksPath .githooks   (and run `npx wrangler login` once)
+
+[ -n "$SKIP_DEPLOY" ] && exit 0
+
+deploy=""
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$remote_ref" = "refs/heads/main" ] && [ "$local_sha" != "0000000000000000000000000000000000000000" ] && deploy="$local_sha"
+done
+[ -z "$deploy" ] && exit 0
+
+if [ "$deploy" != "$(git rev-parse HEAD)" ] || [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+  echo "Auto-deploy skipped: commit your changes (and push from the main branch) so the live site matches GitHub."
+  echo "Deploy by hand later with: npm run deploy"
+  exit 0
+fi
+
+echo "Building and deploying to realaiapps.com..."
+if npm run deploy --silent > .git/last-deploy.log 2>&1; then
+  echo "Live on https://realaiapps.com  ($(grep -o 'Current Version ID: .*' .git/last-deploy.log))"
+else
+  tail -30 .git/last-deploy.log
+  echo ""
+  echo "Deploy failed, so the push was stopped. Fix the error above and push again."
+  echo "Full log: .git/last-deploy.log"
+  exit 1
+fi
