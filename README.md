@@ -4,9 +4,9 @@ Honest AI tool reviews, comparisons and tutorials in English and Roman Urdu.
 
 This is a Next.js website with **no database and no login**. All content lives in files in this repo:
 articles are MDX files in `content/`, and the tools data is in `data/tools/`. Every page is built ahead of
-time, so the site is fast and hosting on Vercel's free plan is enough.
+time, so the site is fast and Cloudflare's free plan is enough to host it.
 
-The old coming-soon page is in `coming-soon/` (see [Coming-soon page](#coming-soon-page) at the end).
+The old coming-soon page is in `coming-soon/` (no longer deployed; see the end of this file).
 
 ---
 
@@ -25,8 +25,9 @@ Other commands:
 
 | Command | What it does |
 | --- | --- |
-| `npm run build` | Builds the full site, the same way Vercel does. Run this before you push. |
-| `npm start` | Serves the built site at http://localhost:3000 |
+| `npm run build` | Builds the full site into `out/`, the same way Cloudflare does. Run this before you push. |
+| `npm run preview` | Serves the built `out/` folder the way Cloudflare does, at http://localhost:8787 |
+| `npm run deploy` | Builds and puts the site live on realaiapps.com (see section 5) |
 | `npm run typecheck` | Checks the TypeScript code |
 
 **If something is wrong in an article or a tool file, the build stops and tells you the file and the
@@ -178,38 +179,42 @@ Put every image for an article in `public/images/<article-slug>/`, for example
 ```
 
 - `alt` is required: describe what the image shows.
-- PNG, JPG, WebP and AVIF all work. Images are resized and compressed automatically.
+- PNG, JPG, WebP and AVIF all work. Images are shown as they are (a static site has no image server),
+  so keep them small: about 1200px wide, compressed, ideally WebP.
 - Markdown images (`![...](...)`) are blocked on purpose; the build asks you to use `<Screenshot>`.
   This makes sure every image has a size, so the page doesn't jump while loading.
 
 ---
 
-## 5. Put it online with Vercel and realaiapps.com
+## 5. Put it online: Cloudflare and realaiapps.com
 
-The site needs no settings, no database and no environment variables.
+The site runs on Cloudflare Workers (free plan), as the Worker **realaiapps**. `npm run build` writes every
+page as a plain file into `out/`, and the Worker serves those files on realaiapps.com and www.realaiapps.com.
+There is no server code, no database and no environment variables. Settings are in `wrangler.jsonc`;
+security headers are in `public/_headers`.
 
-### First deploy
+### Automatic deploy on every push (set up once)
 
-1. Push this repo to GitHub.
-2. In [Vercel](https://vercel.com/new), choose **Add New → Project** and import the repo.
-   Vercel detects Next.js by itself. If you reuse the old "realai" project, open
-   **Settings → Build and Deployment** and make sure **Framework Preset** is **Next.js**.
-3. Click **Deploy**. From now on, every push to `main` updates the site, and other branches get a preview link.
+1. In Cloudflare, open **Workers & Pages → realaiapps → Settings → Build**, and click **Connect** next to
+   **Git repository**.
+2. Choose GitHub, allow access to the `jamxpert/realaiapps` repo, and pick it.
+3. Use these settings:
+   - **Branch:** `main`
+   - **Build command:** `npm run build`
+   - **Deploy command:** `npx wrangler deploy`
+   - **Root directory:** leave empty
+4. Save. From now on, every push to `main` builds the site and puts it live on realaiapps.com within about
+   two minutes. You can follow each build under **Deployments**. If the build fails (for example, a wrong
+   field in a tool file), the live site stays as it was and the build log says what is wrong.
 
-### Connect realaiapps.com
+### Deploy by hand from your computer
 
-Right now realaiapps.com shows the coming-soon page from Cloudflare Workers. To switch it to this site:
+```bash
+npx wrangler login     # once
+npm run deploy         # builds, then uploads to realaiapps.com
+```
 
-1. In Vercel, open the project → **Settings → Domains** and add `realaiapps.com` and `www.realaiapps.com`.
-   Vercel shows the DNS records it needs (and a `_vercel` TXT record if it asks you to verify the domain).
-2. In Cloudflare, go to **Workers & Pages → realaiapp → Settings → Domains & Routes** and remove the two
-   custom domains (`realaiapps.com` and `www.realaiapps.com`). This stops the coming-soon page.
-3. In Cloudflare **DNS → Records**, add exactly the records Vercel showed you. Set the cloud icon to
-   **DNS only** (grey), not Proxied.
-4. Wait a few minutes until Vercel shows the domains as **Valid**. Vercel adds HTTPS by itself.
-
-Email forwarding (Cloudflare Email Routing) keeps working, because it uses separate MX records. Don't
-delete the MX or email TXT records.
+Email forwarding (Cloudflare Email Routing) is separate from the site, so deploys never affect it.
 
 ---
 
@@ -276,7 +281,8 @@ data/site.ts         Site name, menus, links and optional features
 lib/                 Loading and checking content, search, SEO
 public/images/       Cover images and screenshots, one folder per article
 assets/fonts/        Font for the generated share images
-coming-soon/         The old coming-soon page (Cloudflare)
+scripts/             A small step that runs after each build
+coming-soon/         The old coming-soon page (no longer deployed)
 ```
 
 Packages used, and why:
@@ -290,17 +296,12 @@ Packages used, and why:
 | rehype-slug | Heading links for the table of contents |
 | image-size | Reads image sizes so pages don't jump while loading |
 | zod | Checks articles, tool files and `site.ts` while building |
+| wrangler (dev only) | Uploads the built site to Cloudflare |
 | fuse.js | Search that forgives typos, running in the browser |
 
 ---
 
 ## Coming-soon page
 
-`coming-soon/` is the static page that realaiapps.com shows today, served by Cloudflare Workers
-(settings in `wrangler.jsonc`). To preview it: `npx serve coming-soon`. To deploy a change to it:
-
-```bash
-npx wrangler@latest deploy
-```
-
-Once the domain points to Vercel (section 5), this folder and `wrangler.jsonc` can be deleted.
+`coming-soon/` holds the old coming-soon page that realaiapps.com showed before this site went live.
+It is no longer deployed and can be deleted. To preview it: `npx serve coming-soon`.

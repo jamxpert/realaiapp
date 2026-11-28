@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Every page is built ahead of time into plain files in out/, which Cloudflare serves
+  // (see wrangler.jsonc). No server runs, so security headers live in public/_headers.
+  output: "export",
   poweredByHeader: false,
   experimental: {
     // Put the CSS (about 8 KB compressed, thanks to Tailwind) in the HTML, so the first paint
@@ -8,19 +11,9 @@ const nextConfig: NextConfig = {
     inlineCss: true,
   },
   images: {
-    // YouTube thumbnails for the <YouTube> video facade.
-    remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }],
-  },
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        ],
-      },
-    ];
+    // A static site has no image server, so images are served as they are.
+    // Keep cover images small (WebP or compressed PNG, about 1200px wide).
+    unoptimized: true,
   },
 };
 
