@@ -6,7 +6,6 @@ This is a Next.js website with **no database and no login**. All content lives i
 articles are MDX files in `content/`, and the tools data is in `data/tools/`. Every page is built ahead of
 time, so the site is fast and Cloudflare's free plan is enough to host it.
 
-The old coming-soon page is in `coming-soon/` (no longer deployed; see the end of this file).
 
 ---
 
@@ -280,9 +279,9 @@ data/tools/          All tools, one file per category: guides, prices, ratings
 data/site.ts         Site name, menus, links and optional features
 lib/                 Loading and checking content, search, SEO
 public/images/       Cover images and screenshots, one folder per article
+public/brand/        The RealAIApps logo (logo-1): light, dark and icon, as SVG and PNG
 assets/fonts/        Font for the generated share images
 scripts/             A small step that runs after each build
-coming-soon/         The old coming-soon page (no longer deployed)
 ```
 
 Packages used, and why:
@@ -298,10 +297,3 @@ Packages used, and why:
 | zod | Checks articles, tool files and `site.ts` while building |
 | wrangler (dev only) | Uploads the built site to Cloudflare |
 | fuse.js | Search that forgives typos, running in the browser |
-
----
-
-## Coming-soon page
-
-`coming-soon/` holds the old coming-soon page that realaiapps.com showed before this site went live.
-It is no longer deployed and can be deleted. To preview it: `npx serve coming-soon`.

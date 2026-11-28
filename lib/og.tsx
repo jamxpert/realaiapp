@@ -17,7 +17,11 @@ interface OgInput {
 
 /** Title + site name on a dark background, drawn at build time. */
 export async function renderOgImage({ title, label, romanUrdu = false }: OgInput): Promise<ImageResponse> {
-  const sora = await readFile(path.join(process.cwd(), "assets/fonts/Sora-Bold.ttf"));
+  const [sora, icon] = await Promise.all([
+    readFile(path.join(process.cwd(), "assets/fonts/Sora-Bold.ttf")),
+    readFile(path.join(process.cwd(), "app/icon.svg")),
+  ]);
+  const iconSrc = `data:image/svg+xml;base64,${icon.toString("base64")}`;
   const fontSize = title.length > 80 ? 52 : title.length > 50 ? 62 : 74;
 
   return new ImageResponse(
@@ -79,10 +83,13 @@ export async function renderOgImage({ title, label, romanUrdu = false }: OgInput
           paddingTop: 28,
         }}
       >
-        <div style={{ display: "flex", fontSize: 36 }}>
-          <span>Real</span>
-          <span style={{ color: colors.accent }}>AI</span>
-          <span>Apps</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 16, fontSize: 36 }}>
+          <img src={iconSrc} width={52} height={52} alt="" />
+          <div style={{ display: "flex" }}>
+            <span>Real</span>
+            <span style={{ color: colors.accent }}>AI</span>
+            <span>Apps</span>
+          </div>
         </div>
         <div style={{ display: "flex", fontSize: 26, color: colors.muted }}>realaiapps.com</div>
       </div>
